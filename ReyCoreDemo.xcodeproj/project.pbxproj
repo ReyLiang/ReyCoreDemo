@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F13C15BB16D3633F004B2FC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13C15BA16D3633F004B2FC9 /* UIKit.framework */; };
+		F13C15BD16D3633F004B2FC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13C15BC16D3633F004B2FC9 /* Foundation.framework */; };
+		F13C15BF16D3633F004B2FC9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13C15BE16D3633F004B2FC9 /* CoreGraphics.framework */; };
+		F13C15C516D3633F004B2FC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F13C15C316D3633F004B2FC9 /* InfoPlist.strings */; };
+		F13C15C716D3633F004B2FC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F13C15C616D3633F004B2FC9 /* main.m */; };
+		F13C15CB16D3633F004B2FC9 /* ReyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F13C15CA16D3633F004B2FC9 /* ReyAppDelegate.m */; };
+		F13C15CD16D3633F004B2FC9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F13C15CC16D3633F004B2FC9 /* Default.png */; };
+		F13C15CF16D3633F004B2FC9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F13C15CE16D3633F004B2FC9 /* Default@2x.png */; };
+		F13C15D116D3633F004B2FC9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F13C15D016D3633F004B2FC9 /* Default-568h@2x.png */; };
+		F13C15D416D3633F004B2FC9 /* ReyFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F13C15D316D3633F004B2FC9 /* ReyFirstViewController.m */; };
+		F13C15D616D3633F004B2FC9 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = F13C15D516D3633F004B2FC9 /* first.png */; };
+		F13C15D816D3633F004B2FC9 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F13C15D716D3633F004B2FC9 /* first@2x.png */; };
+		F13C15DB16D3633F004B2FC9 /* ReySecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F13C15DA16D3633F004B2FC9 /* ReySecondViewController.m */; };
+		F13C15DD16D3633F004B2FC9 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = F13C15DC16D3633F004B2FC9 /* second.png */; };
+		F13C15DF16D3633F004B2FC9 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F13C15DE16D3633F004B2FC9 /* second@2x.png */; };
+		F13C15E216D3633F004B2FC9 /* ReyFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13C15E016D3633F004B2FC9 /* ReyFirstViewController.xib */; };
+		F13C15E516D3633F004B2FC9 /* ReySecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13C15E316D3633F004B2FC9 /* ReySecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F13C15B716D3633F004B2FC9 /* ReyCoreDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReyCoreDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13C15BA16D3633F004B2FC9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F13C15BC16D3633F004B2FC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F13C15BE16D3633F004B2FC9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F13C15C216D3633F004B2FC9 /* ReyCoreDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReyCoreDemo-Info.plist"; sourceTree = "<group>"; };
+		F13C15C416D3633F004B2FC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F13C15C616D3633F004B2FC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F13C15C816D3633F004B2FC9 /* ReyCoreDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReyCoreDemo-Prefix.pch"; sourceTree = "<group>"; };
+		F13C15C916D3633F004B2FC9 /* ReyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReyAppDelegate.h; sourceTree = "<group>"; };
+		F13C15CA16D3633F004B2FC9 /* ReyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReyAppDelegate.m; sourceTree = "<group>"; };
+		F13C15CC16D3633F004B2FC9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F13C15CE16D3633F004B2FC9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F13C15D016D3633F004B2FC9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F13C15D216D3633F004B2FC9 /* ReyFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReyFirstViewController.h; sourceTree = "<group>"; };
+		F13C15D316D3633F004B2FC9 /* ReyFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReyFirstViewController.m; sourceTree = "<group>"; };
+		F13C15D516D3633F004B2FC9 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		F13C15D716D3633F004B2FC9 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		F13C15D916D3633F004B2FC9 /* ReySecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReySecondViewController.h; sourceTree = "<group>"; };
+		F13C15DA16D3633F004B2FC9 /* ReySecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReySecondViewController.m; sourceTree = "<group>"; };
+		F13C15DC16D3633F004B2FC9 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		F13C15DE16D3633F004B2FC9 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		F13C15E116D3633F004B2FC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ReyFirstViewController.xib; sourceTree = "<group>"; };
+		F13C15E416D3633F004B2FC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ReySecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F13C15B416D3633F004B2FC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13C15BB16D3633F004B2FC9 /* UIKit.framework in Frameworks */,
+				F13C15BD16D3633F004B2FC9 /* Foundation.framework in Frameworks */,
+				F13C15BF16D3633F004B2FC9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F13C15AE16D3633F004B2FC9 = {
+			isa = PBXGroup;
+			children = (
+				F13C15C016D3633F004B2FC9 /* ReyCoreDemo */,
+				F13C15B916D3633F004B2FC9 /* Frameworks */,
+				F13C15B816D3633F004B2FC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F13C15B816D3633F004B2FC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F13C15B716D3633F004B2FC9 /* ReyCoreDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F13C15B916D3633F004B2FC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F13C15BA16D3633F004B2FC9 /* UIKit.framework */,
+				F13C15BC16D3633F004B2FC9 /* Foundation.framework */,
+				F13C15BE16D3633F004B2FC9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F13C15C016D3633F004B2FC9 /* ReyCoreDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F13C15C916D3633F004B2FC9 /* ReyAppDelegate.h */,
+				F13C15CA16D3633F004B2FC9 /* ReyAppDelegate.m */,
+				F13C15D216D3633F004B2FC9 /* ReyFirstViewController.h */,
+				F13C15D316D3633F004B2FC9 /* ReyFirstViewController.m */,
+				F13C15D516D3633F004B2FC9 /* first.png */,
+				F13C15D716D3633F004B2FC9 /* first@2x.png */,
+				F13C15D916D3633F004B2FC9 /* ReySecondViewController.h */,
+				F13C15DA16D3633F004B2FC9 /* ReySecondViewController.m */,
+				F13C15DC16D3633F004B2FC9 /* second.png */,
+				F13C15DE16D3633F004B2FC9 /* second@2x.png */,
+				F13C15E016D3633F004B2FC9 /* ReyFirstViewController.xib */,
+				F13C15E316D3633F004B2FC9 /* ReySecondViewController.xib */,
+				F13C15C116D3633F004B2FC9 /* Supporting Files */,
+			);
+			path = ReyCoreDemo;
+			sourceTree = "<group>";
+		};
+		F13C15C116D3633F004B2FC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F13C15C216D3633F004B2FC9 /* ReyCoreDemo-Info.plist */,
+				F13C15C316D3633F004B2FC9 /* InfoPlist.strings */,
+				F13C15C616D3633F004B2FC9 /* main.m */,
+				F13C15C816D3633F004B2FC9 /* ReyCoreDemo-Prefix.pch */,
+				F13C15CC16D3633F004B2FC9 /* Default.png */,
+				F13C15CE16D3633F004B2FC9 /* Default@2x.png */,
+				F13C15D016D3633F004B2FC9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F13C15B616D3633F004B2FC9 /* ReyCoreDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13C15E816D3633F004B2FC9 /* Build configuration list for PBXNativeTarget "ReyCoreDemo" */;
+			buildPhases = (
+				F13C15B316D3633F004B2FC9 /* Sources */,
+				F13C15B416D3633F004B2FC9 /* Frameworks */,
+				F13C15B516D3633F004B2FC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReyCoreDemo;
+			productName = ReyCoreDemo;
+			productReference = F13C15B716D3633F004B2FC9 /* ReyCoreDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F13C15AF16D3633F004B2FC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Rey;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Rey;
+			};
+			buildConfigurationList = F13C15B216D3633F004B2FC9 /* Build configuration list for PBXProject "ReyCoreDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F13C15AE16D3633F004B2FC9;
+			productRefGroup = F13C15B816D3633F004B2FC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F13C15B616D3633F004B2FC9 /* ReyCoreDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F13C15B516D3633F004B2FC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13C15C516D3633F004B2FC9 /* InfoPlist.strings in Resources */,
+				F13C15CD16D3633F004B2FC9 /* Default.png in Resources */,
+				F13C15CF16D3633F004B2FC9 /* Default@2x.png in Resources */,
+				F13C15D116D3633F004B2FC9 /* Default-568h@2x.png in Resources */,
+				F13C15D616D3633F004B2FC9 /* first.png in Resources */,
+				F13C15D816D3633F004B2FC9 /* first@2x.png in Resources */,
+				F13C15DD16D3633F004B2FC9 /* second.png in Resources */,
+				F13C15DF16D3633F004B2FC9 /* second@2x.png in Resources */,
+				F13C15E216D3633F004B2FC9 /* ReyFirstViewController.xib in Resources */,
+				F13C15E516D3633F004B2FC9 /* ReySecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F13C15B316D3633F004B2FC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13C15C716D3633F004B2FC9 /* main.m in Sources */,
+				F13C15CB16D3633F004B2FC9 /* ReyAppDelegate.m in Sources */,
+				F13C15D416D3633F004B2FC9 /* ReyFirstViewController.m in Sources */,
+				F13C15DB16D3633F004B2FC9 /* ReySecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F13C15C316D3633F004B2FC9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13C15C416D3633F004B2FC9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F13C15E016D3633F004B2FC9 /* ReyFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13C15E116D3633F004B2FC9 /* en */,
+			);
+			name = ReyFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		F13C15E316D3633F004B2FC9 /* ReySecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13C15E416D3633F004B2FC9 /* en */,
+			);
+			name = ReySecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F13C15E616D3633F004B2FC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F13C15E716D3633F004B2FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F13C15E916D3633F004B2FC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReyCoreDemo/ReyCoreDemo-Prefix.pch";
+				INFOPLIST_FILE = "ReyCoreDemo/ReyCoreDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F13C15EA16D3633F004B2FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReyCoreDemo/ReyCoreDemo-Prefix.pch";
+				INFOPLIST_FILE = "ReyCoreDemo/ReyCoreDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F13C15B216D3633F004B2FC9 /* Build configuration list for PBXProject "ReyCoreDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13C15E616D3633F004B2FC9 /* Debug */,
+				F13C15E716D3633F004B2FC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13C15E816D3633F004B2FC9 /* Build configuration list for PBXNativeTarget "ReyCoreDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13C15E916D3633F004B2FC9 /* Debug */,
+				F13C15EA16D3633F004B2FC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F13C15AF16D3633F004B2FC9 /* Project object */;
+}
