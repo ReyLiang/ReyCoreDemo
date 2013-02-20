@@ -9,5 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface ReyFirstViewController : UIViewController
+    <UITableViewDataSource,UITableViewDelegate>
+{
+    NSArray * m_titlesArry;
+    NSArray * m_viewsArry;
+}
+
+@property (nonatomic, retain) NSArray * m_titlesArry;
+@property (nonatomic, retain) NSArray * m_viewsArry;
 
 @end
