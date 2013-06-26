@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		F11BABF816D5CBA000614A2A /* ReyCoreBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F11BABF716D5CBA000614A2A /* ReyCoreBundle.bundle */; };
+		F12F2A3617019F3C00C4F5F2 /* ReyUloadFileController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12F2A3417019F3C00C4F5F2 /* ReyUloadFileController.m */; };
+		F12F2A3717019F3C00C4F5F2 /* ReyUloadFileController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F12F2A3517019F3C00C4F5F2 /* ReyUloadFileController.xib */; };
+		F12F2A3917019F7400C4F5F2 /* ReyShareRequest.h in Resources */ = {isa = PBXBuildFile; fileRef = F12F2A3817019F7400C4F5F2 /* ReyShareRequest.h */; };
+		F12F2A3B17019F8200C4F5F2 /* ReyDownload.h in Resources */ = {isa = PBXBuildFile; fileRef = F12F2A3A17019F8200C4F5F2 /* ReyDownload.h */; };
+		F12F2A3D17019FD900C4F5F2 /* upomp_bypay_loading_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F12F2A3C17019FD900C4F5F2 /* upomp_bypay_loading_bg.png */; };
 		F13C15BB16D3633F004B2FC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13C15BA16D3633F004B2FC9 /* UIKit.framework */; };
 		F13C15BD16D3633F004B2FC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13C15BC16D3633F004B2FC9 /* Foundation.framework */; };
 		F13C15BF16D3633F004B2FC9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13C15BE16D3633F004B2FC9 /* CoreGraphics.framework */; };
@@ -25,6 +30,12 @@
 		F13C15DF16D3633F004B2FC9 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F13C15DE16D3633F004B2FC9 /* second@2x.png */; };
 		F13C15E216D3633F004B2FC9 /* ReyFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13C15E016D3633F004B2FC9 /* ReyFirstViewController.xib */; };
 		F13C15E516D3633F004B2FC9 /* ReySecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13C15E316D3633F004B2FC9 /* ReySecondViewController.xib */; };
+		F1B71FC2170D5C1F00E2FF66 /* ReyLoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B71FC0170D5C1F00E2FF66 /* ReyLoadingViewController.m */; };
+		F1B71FC3170D5C1F00E2FF66 /* ReyLoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1B71FC1170D5C1F00E2FF66 /* ReyLoadingViewController.xib */; };
+		F1B71FC5170D5DA200E2FF66 /* ReyBreakLoadView.h in Resources */ = {isa = PBXBuildFile; fileRef = F1B71FC4170D5DA200E2FF66 /* ReyBreakLoadView.h */; };
+		F1B71FC7170D5DB000E2FF66 /* ReyLoadView.h in Resources */ = {isa = PBXBuildFile; fileRef = F1B71FC6170D5DB000E2FF66 /* ReyLoadView.h */; };
+		F1B71FCA170D5E9100E2FF66 /* load1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1B71FC8170D5E9100E2FF66 /* load1.jpg */; };
+		F1B71FCB170D5E9100E2FF66 /* load2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1B71FC9170D5E9100E2FF66 /* load2.jpg */; };
 		F1BFE93F16D3668800CDF8B4 /* libReyCore copy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BFE93B16D3666B00CDF8B4 /* libReyCore copy.a */; };
 		F1BFE97B16D36CA800CDF8B4 /* ReyPullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BFE97916D36CA800CDF8B4 /* ReyPullViewController.m */; };
 		F1BFE97C16D36CA800CDF8B4 /* ReyPullViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1BFE97A16D36CA800CDF8B4 /* ReyPullViewController.xib */; };
@@ -55,6 +66,12 @@
 
 /* Begin PBXFileReference section */
 		F11BABF716D5CBA000614A2A /* ReyCoreBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ReyCoreBundle.bundle; sourceTree = "<group>"; };
+		F12F2A3317019F3C00C4F5F2 /* ReyUloadFileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyUloadFileController.h; sourceTree = "<group>"; };
+		F12F2A3417019F3C00C4F5F2 /* ReyUloadFileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyUloadFileController.m; sourceTree = "<group>"; };
+		F12F2A3517019F3C00C4F5F2 /* ReyUloadFileController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReyUloadFileController.xib; sourceTree = "<group>"; };
+		F12F2A3817019F7400C4F5F2 /* ReyShareRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReyShareRequest.h; path = "../../ReyCore-GitHub/ReyCore/ReyCore/ReyShareRequest.h"; sourceTree = "<group>"; };
+		F12F2A3A17019F8200C4F5F2 /* ReyDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReyDownload.h; path = "../../ReyCore-GitHub/ReyCore/ReyCore/ReyDownload.h"; sourceTree = "<group>"; };
+		F12F2A3C17019FD900C4F5F2 /* upomp_bypay_loading_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upomp_bypay_loading_bg.png; sourceTree = "<group>"; };
 		F13C15B716D3633F004B2FC9 /* ReyCoreDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReyCoreDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13C15BA16D3633F004B2FC9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F13C15BC16D3633F004B2FC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -78,6 +95,13 @@
 		F13C15DE16D3633F004B2FC9 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		F13C15E116D3633F004B2FC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ReyFirstViewController.xib; sourceTree = "<group>"; };
 		F13C15E416D3633F004B2FC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ReySecondViewController.xib; sourceTree = "<group>"; };
+		F1B71FBF170D5C1F00E2FF66 /* ReyLoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyLoadingViewController.h; sourceTree = "<group>"; };
+		F1B71FC0170D5C1F00E2FF66 /* ReyLoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyLoadingViewController.m; sourceTree = "<group>"; };
+		F1B71FC1170D5C1F00E2FF66 /* ReyLoadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReyLoadingViewController.xib; sourceTree = "<group>"; };
+		F1B71FC4170D5DA200E2FF66 /* ReyBreakLoadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; name = ReyBreakLoadView.h; path = "../../ReyCore-GitHub/ReyCore/ReyCore/ReyBreakLoadView.h"; sourceTree = "<group>"; };
+		F1B71FC6170D5DB000E2FF66 /* ReyLoadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; name = ReyLoadView.h; path = "../../ReyCore-GitHub/ReyCore/ReyCore/ReyLoadView.h"; sourceTree = "<group>"; };
+		F1B71FC8170D5E9100E2FF66 /* load1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = load1.jpg; sourceTree = "<group>"; };
+		F1B71FC9170D5E9100E2FF66 /* load2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = load2.jpg; sourceTree = "<group>"; };
 		F1BFE93316D3666B00CDF8B4 /* ReyCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReyCore.xcodeproj; path = "../../ReyCore-GitHub/ReyCore/ReyCore.xcodeproj"; sourceTree = "<group>"; };
 		F1BFE97816D36CA800CDF8B4 /* ReyPullViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyPullViewController.h; sourceTree = "<group>"; };
 		F1BFE97916D36CA800CDF8B4 /* ReyPullViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyPullViewController.m; sourceTree = "<group>"; };
@@ -107,6 +131,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F12F2A3017019F1600C4F5F2 /* ReyUloadFile */ = {
+			isa = PBXGroup;
+			children = (
+				F12F2A3317019F3C00C4F5F2 /* ReyUloadFileController.h */,
+				F12F2A3417019F3C00C4F5F2 /* ReyUloadFileController.m */,
+				F12F2A3517019F3C00C4F5F2 /* ReyUloadFileController.xib */,
+			);
+			name = ReyUloadFile;
+			sourceTree = "<group>";
+		};
 		F13C15AE16D3633F004B2FC9 = {
 			isa = PBXGroup;
 			children = (
@@ -140,17 +174,22 @@
 		F13C15C016D3633F004B2FC9 /* ReyCoreDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F1B71FBC170D5BFB00E2FF66 /* ReyLoading */,
+				F12F2A3017019F1600C4F5F2 /* ReyUloadFile */,
 				F1BFE97716D36C7500CDF8B4 /* ReyPullView */,
 				F13C15C916D3633F004B2FC9 /* ReyAppDelegate.h */,
 				F13C15CA16D3633F004B2FC9 /* ReyAppDelegate.m */,
 				F13C15D216D3633F004B2FC9 /* ReyFirstViewController.h */,
 				F13C15D316D3633F004B2FC9 /* ReyFirstViewController.m */,
 				F13C15D516D3633F004B2FC9 /* first.png */,
+				F1B71FC8170D5E9100E2FF66 /* load1.jpg */,
+				F1B71FC9170D5E9100E2FF66 /* load2.jpg */,
 				F13C15D716D3633F004B2FC9 /* first@2x.png */,
 				F13C15D916D3633F004B2FC9 /* ReySecondViewController.h */,
 				F13C15DA16D3633F004B2FC9 /* ReySecondViewController.m */,
 				F13C15DC16D3633F004B2FC9 /* second.png */,
 				F13C15DE16D3633F004B2FC9 /* second@2x.png */,
+				F12F2A3C17019FD900C4F5F2 /* upomp_bypay_loading_bg.png */,
 				F13C15E016D3633F004B2FC9 /* ReyFirstViewController.xib */,
 				F13C15E316D3633F004B2FC9 /* ReySecondViewController.xib */,
 				F13C15C116D3633F004B2FC9 /* Supporting Files */,
@@ -172,9 +211,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F1B71FBC170D5BFB00E2FF66 /* ReyLoading */ = {
+			isa = PBXGroup;
+			children = (
+				F1B71FBF170D5C1F00E2FF66 /* ReyLoadingViewController.h */,
+				F1B71FC0170D5C1F00E2FF66 /* ReyLoadingViewController.m */,
+				F1B71FC1170D5C1F00E2FF66 /* ReyLoadingViewController.xib */,
+			);
+			name = ReyLoading;
+			sourceTree = "<group>";
+		};
 		F1BFE93216D3654600CDF8B4 /* ReyCoreHead */ = {
 			isa = PBXGroup;
 			children = (
+				F1B71FC6170D5DB000E2FF66 /* ReyLoadView.h */,
+				F1B71FC4170D5DA200E2FF66 /* ReyBreakLoadView.h */,
+				F12F2A3A17019F8200C4F5F2 /* ReyDownload.h */,
+				F12F2A3817019F7400C4F5F2 /* ReyShareRequest.h */,
 				F1BFE9B616D483FD00CDF8B4 /* ReyPullView_multiMoveBtn.h */,
 				F1BFE98616D378CA00CDF8B4 /* ReyPullView_customMoveBtn.h */,
 				F1BFE97E16D36CFD00CDF8B4 /* ReyPullView.h */,
@@ -303,6 +356,15 @@
 				F1BFE98716D378CA00CDF8B4 /* ReyPullView_customMoveBtn.h in Resources */,
 				F1BFE9B716D483FD00CDF8B4 /* ReyPullView_multiMoveBtn.h in Resources */,
 				F11BABF816D5CBA000614A2A /* ReyCoreBundle.bundle in Resources */,
+				F12F2A3717019F3C00C4F5F2 /* ReyUloadFileController.xib in Resources */,
+				F12F2A3917019F7400C4F5F2 /* ReyShareRequest.h in Resources */,
+				F12F2A3B17019F8200C4F5F2 /* ReyDownload.h in Resources */,
+				F12F2A3D17019FD900C4F5F2 /* upomp_bypay_loading_bg.png in Resources */,
+				F1B71FC3170D5C1F00E2FF66 /* ReyLoadingViewController.xib in Resources */,
+				F1B71FC5170D5DA200E2FF66 /* ReyBreakLoadView.h in Resources */,
+				F1B71FC7170D5DB000E2FF66 /* ReyLoadView.h in Resources */,
+				F1B71FCA170D5E9100E2FF66 /* load1.jpg in Resources */,
+				F1B71FCB170D5E9100E2FF66 /* load2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +380,8 @@
 				F13C15D416D3633F004B2FC9 /* ReyFirstViewController.m in Sources */,
 				F13C15DB16D3633F004B2FC9 /* ReySecondViewController.m in Sources */,
 				F1BFE97B16D36CA800CDF8B4 /* ReyPullViewController.m in Sources */,
+				F12F2A3617019F3C00C4F5F2 /* ReyUloadFileController.m in Sources */,
+				F1B71FC2170D5C1F00E2FF66 /* ReyLoadingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +439,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -398,7 +462,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -410,6 +474,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReyCoreDemo/ReyCoreDemo-Prefix.pch";
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "ReyCoreDemo/ReyCoreDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -421,6 +486,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReyCoreDemo/ReyCoreDemo-Prefix.pch";
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "ReyCoreDemo/ReyCoreDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

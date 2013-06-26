@@ -17,8 +17,8 @@
 @synthesize m_titlesArry,m_viewsArry;
 
 
-#define TITLES @"ReyPullView",nil
-#define VIEWS @"ReyPullViewController",nil
+#define TITLES @"ReyPullView",@"图片上传",@"加载界面",nil
+#define VIEWS @"ReyPullViewController",@"ReyUloadFileController",@"ReyLoadingViewController",nil
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -86,7 +86,7 @@
         
     }
     
-    cell.textLabel.text = [m_viewsArry objectAtIndex:indexPath.row];
+    cell.textLabel.text = [m_titlesArry objectAtIndex:indexPath.row];
     
     return cell;
 }
