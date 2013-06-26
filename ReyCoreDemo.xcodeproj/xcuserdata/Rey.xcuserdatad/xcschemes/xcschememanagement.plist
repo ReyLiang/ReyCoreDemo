@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ReyCoreDemo copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>ReyCoreDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>F13C15B616D3633F004B2FC9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F1A2AFCC177AE185001C7B19</key>
 		<dict>
 			<key>primary</key>
 			<true/>

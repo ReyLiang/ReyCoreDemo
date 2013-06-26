@@ -7,11 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F11BABF816D5CBA000614A2A /* ReyCoreBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F11BABF716D5CBA000614A2A /* ReyCoreBundle.bundle */; };
 		F12F2A3617019F3C00C4F5F2 /* ReyUloadFileController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12F2A3417019F3C00C4F5F2 /* ReyUloadFileController.m */; };
 		F12F2A3717019F3C00C4F5F2 /* ReyUloadFileController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F12F2A3517019F3C00C4F5F2 /* ReyUloadFileController.xib */; };
-		F12F2A3917019F7400C4F5F2 /* ReyShareRequest.h in Resources */ = {isa = PBXBuildFile; fileRef = F12F2A3817019F7400C4F5F2 /* ReyShareRequest.h */; };
-		F12F2A3B17019F8200C4F5F2 /* ReyDownload.h in Resources */ = {isa = PBXBuildFile; fileRef = F12F2A3A17019F8200C4F5F2 /* ReyDownload.h */; };
 		F12F2A3D17019FD900C4F5F2 /* upomp_bypay_loading_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F12F2A3C17019FD900C4F5F2 /* upomp_bypay_loading_bg.png */; };
 		F13C15BB16D3633F004B2FC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13C15BA16D3633F004B2FC9 /* UIKit.framework */; };
 		F13C15BD16D3633F004B2FC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13C15BC16D3633F004B2FC9 /* Foundation.framework */; };
@@ -30,34 +27,77 @@
 		F13C15DF16D3633F004B2FC9 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F13C15DE16D3633F004B2FC9 /* second@2x.png */; };
 		F13C15E216D3633F004B2FC9 /* ReyFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13C15E016D3633F004B2FC9 /* ReyFirstViewController.xib */; };
 		F13C15E516D3633F004B2FC9 /* ReySecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13C15E316D3633F004B2FC9 /* ReySecondViewController.xib */; };
+		F1A2AFBA177AE05F001C7B19 /* ReyLoadView.h in Resources */ = {isa = PBXBuildFile; fileRef = F1A2AFB9177AE05F001C7B19 /* ReyLoadView.h */; };
+		F1A2AFBC177AE075001C7B19 /* ReyBreakLoadView.h in Resources */ = {isa = PBXBuildFile; fileRef = F1A2AFBB177AE075001C7B19 /* ReyBreakLoadView.h */; };
+		F1A2AFBE177AE08D001C7B19 /* ReyDownload.h in Resources */ = {isa = PBXBuildFile; fileRef = F1A2AFBD177AE08D001C7B19 /* ReyDownload.h */; };
+		F1A2AFC0177AE0A7001C7B19 /* ReyShareRequest.h in Resources */ = {isa = PBXBuildFile; fileRef = F1A2AFBF177AE0A7001C7B19 /* ReyShareRequest.h */; };
+		F1A2AFC2177AE0D6001C7B19 /* ReyPullView_customMoveBtn.h in Resources */ = {isa = PBXBuildFile; fileRef = F1A2AFC1177AE0D6001C7B19 /* ReyPullView_customMoveBtn.h */; };
+		F1A2AFC4177AE0EC001C7B19 /* ReyPullView_moveBtn.h in Resources */ = {isa = PBXBuildFile; fileRef = F1A2AFC3177AE0EC001C7B19 /* ReyPullView_moveBtn.h */; };
+		F1A2AFC6177AE0F7001C7B19 /* ReyPullView.h in Resources */ = {isa = PBXBuildFile; fileRef = F1A2AFC5177AE0F7001C7B19 /* ReyPullView.h */; };
+		F1A2AFC8177AE113001C7B19 /* ReyCommon.h in Resources */ = {isa = PBXBuildFile; fileRef = F1A2AFC7177AE113001C7B19 /* ReyCommon.h */; };
+		F1A2AFC9177AE13C001C7B19 /* libReyCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1A2AFB0177AE016001C7B19 /* libReyCore.a */; };
+		F1A2AFCB177AE178001C7B19 /* ReyCoreBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F1A2AFCA177AE178001C7B19 /* ReyCoreBundle.bundle */; };
+		F1A2AFCE177AE185001C7B19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F13C15C616D3633F004B2FC9 /* main.m */; };
+		F1A2AFCF177AE185001C7B19 /* ReyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F13C15CA16D3633F004B2FC9 /* ReyAppDelegate.m */; };
+		F1A2AFD0177AE185001C7B19 /* ReyFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F13C15D316D3633F004B2FC9 /* ReyFirstViewController.m */; };
+		F1A2AFD1177AE185001C7B19 /* ReySecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F13C15DA16D3633F004B2FC9 /* ReySecondViewController.m */; };
+		F1A2AFD2177AE185001C7B19 /* ReyPullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BFE97916D36CA800CDF8B4 /* ReyPullViewController.m */; };
+		F1A2AFD3177AE185001C7B19 /* ReyUloadFileController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12F2A3417019F3C00C4F5F2 /* ReyUloadFileController.m */; };
+		F1A2AFD4177AE185001C7B19 /* ReyLoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B71FC0170D5C1F00E2FF66 /* ReyLoadingViewController.m */; };
+		F1A2AFD7177AE185001C7B19 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BFE98216D3711100CDF8B4 /* AudioToolbox.framework */; };
+		F1A2AFD8177AE185001C7B19 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BFE98416D3712B00CDF8B4 /* QuartzCore.framework */; };
+		F1A2AFD9177AE185001C7B19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13C15BA16D3633F004B2FC9 /* UIKit.framework */; };
+		F1A2AFDA177AE185001C7B19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13C15BC16D3633F004B2FC9 /* Foundation.framework */; };
+		F1A2AFDB177AE185001C7B19 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13C15BE16D3633F004B2FC9 /* CoreGraphics.framework */; };
+		F1A2AFDD177AE185001C7B19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F13C15C316D3633F004B2FC9 /* InfoPlist.strings */; };
+		F1A2AFDE177AE185001C7B19 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F13C15CC16D3633F004B2FC9 /* Default.png */; };
+		F1A2AFDF177AE185001C7B19 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F13C15CE16D3633F004B2FC9 /* Default@2x.png */; };
+		F1A2AFE0177AE185001C7B19 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F13C15D016D3633F004B2FC9 /* Default-568h@2x.png */; };
+		F1A2AFE1177AE185001C7B19 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = F13C15D516D3633F004B2FC9 /* first.png */; };
+		F1A2AFE2177AE185001C7B19 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F13C15D716D3633F004B2FC9 /* first@2x.png */; };
+		F1A2AFE3177AE185001C7B19 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = F13C15DC16D3633F004B2FC9 /* second.png */; };
+		F1A2AFE4177AE185001C7B19 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F13C15DE16D3633F004B2FC9 /* second@2x.png */; };
+		F1A2AFE5177AE185001C7B19 /* ReyFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13C15E016D3633F004B2FC9 /* ReyFirstViewController.xib */; };
+		F1A2AFE6177AE185001C7B19 /* ReySecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13C15E316D3633F004B2FC9 /* ReySecondViewController.xib */; };
+		F1A2AFE7177AE185001C7B19 /* ReyPullViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1BFE97A16D36CA800CDF8B4 /* ReyPullViewController.xib */; };
+		F1A2AFE8177AE185001C7B19 /* ReyUloadFileController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F12F2A3517019F3C00C4F5F2 /* ReyUloadFileController.xib */; };
+		F1A2AFE9177AE185001C7B19 /* upomp_bypay_loading_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F12F2A3C17019FD900C4F5F2 /* upomp_bypay_loading_bg.png */; };
+		F1A2AFEA177AE185001C7B19 /* ReyLoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1B71FC1170D5C1F00E2FF66 /* ReyLoadingViewController.xib */; };
+		F1A2AFEB177AE185001C7B19 /* load1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1B71FC8170D5E9100E2FF66 /* load1.jpg */; };
+		F1A2AFEC177AE185001C7B19 /* load2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1B71FC9170D5E9100E2FF66 /* load2.jpg */; };
+		F1A2AFED177AE185001C7B19 /* ReyLoadView.h in Resources */ = {isa = PBXBuildFile; fileRef = F1A2AFB9177AE05F001C7B19 /* ReyLoadView.h */; };
+		F1A2AFEE177AE185001C7B19 /* ReyBreakLoadView.h in Resources */ = {isa = PBXBuildFile; fileRef = F1A2AFBB177AE075001C7B19 /* ReyBreakLoadView.h */; };
+		F1A2AFEF177AE185001C7B19 /* ReyDownload.h in Resources */ = {isa = PBXBuildFile; fileRef = F1A2AFBD177AE08D001C7B19 /* ReyDownload.h */; };
+		F1A2AFF0177AE185001C7B19 /* ReyShareRequest.h in Resources */ = {isa = PBXBuildFile; fileRef = F1A2AFBF177AE0A7001C7B19 /* ReyShareRequest.h */; };
+		F1A2AFF1177AE185001C7B19 /* ReyPullView_customMoveBtn.h in Resources */ = {isa = PBXBuildFile; fileRef = F1A2AFC1177AE0D6001C7B19 /* ReyPullView_customMoveBtn.h */; };
+		F1A2AFF2177AE185001C7B19 /* ReyPullView_moveBtn.h in Resources */ = {isa = PBXBuildFile; fileRef = F1A2AFC3177AE0EC001C7B19 /* ReyPullView_moveBtn.h */; };
+		F1A2AFF3177AE185001C7B19 /* ReyPullView.h in Resources */ = {isa = PBXBuildFile; fileRef = F1A2AFC5177AE0F7001C7B19 /* ReyPullView.h */; };
+		F1A2AFF4177AE185001C7B19 /* ReyCommon.h in Resources */ = {isa = PBXBuildFile; fileRef = F1A2AFC7177AE113001C7B19 /* ReyCommon.h */; };
+		F1A2AFF5177AE185001C7B19 /* ReyCoreBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F1A2AFCA177AE178001C7B19 /* ReyCoreBundle.bundle */; };
+		F1A2B000177AE348001C7B19 /* ReyPullView_multiMoveBtn.h in Resources */ = {isa = PBXBuildFile; fileRef = F1A2AFFF177AE348001C7B19 /* ReyPullView_multiMoveBtn.h */; };
+		F1A2B001177AE348001C7B19 /* ReyPullView_multiMoveBtn.h in Resources */ = {isa = PBXBuildFile; fileRef = F1A2AFFF177AE348001C7B19 /* ReyPullView_multiMoveBtn.h */; };
+		F1A2B002177AE357001C7B19 /* libReyCore copy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1A2AFB2177AE016001C7B19 /* libReyCore copy.a */; };
 		F1B71FC2170D5C1F00E2FF66 /* ReyLoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B71FC0170D5C1F00E2FF66 /* ReyLoadingViewController.m */; };
 		F1B71FC3170D5C1F00E2FF66 /* ReyLoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1B71FC1170D5C1F00E2FF66 /* ReyLoadingViewController.xib */; };
-		F1B71FC5170D5DA200E2FF66 /* ReyBreakLoadView.h in Resources */ = {isa = PBXBuildFile; fileRef = F1B71FC4170D5DA200E2FF66 /* ReyBreakLoadView.h */; };
-		F1B71FC7170D5DB000E2FF66 /* ReyLoadView.h in Resources */ = {isa = PBXBuildFile; fileRef = F1B71FC6170D5DB000E2FF66 /* ReyLoadView.h */; };
 		F1B71FCA170D5E9100E2FF66 /* load1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1B71FC8170D5E9100E2FF66 /* load1.jpg */; };
 		F1B71FCB170D5E9100E2FF66 /* load2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1B71FC9170D5E9100E2FF66 /* load2.jpg */; };
-		F1BFE93F16D3668800CDF8B4 /* libReyCore copy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BFE93B16D3666B00CDF8B4 /* libReyCore copy.a */; };
 		F1BFE97B16D36CA800CDF8B4 /* ReyPullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BFE97916D36CA800CDF8B4 /* ReyPullViewController.m */; };
 		F1BFE97C16D36CA800CDF8B4 /* ReyPullViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1BFE97A16D36CA800CDF8B4 /* ReyPullViewController.xib */; };
-		F1BFE97F16D36CFD00CDF8B4 /* ReyPullView.h in Resources */ = {isa = PBXBuildFile; fileRef = F1BFE97E16D36CFD00CDF8B4 /* ReyPullView.h */; };
-		F1BFE98116D36D1B00CDF8B4 /* ReyCommon.h in Resources */ = {isa = PBXBuildFile; fileRef = F1BFE98016D36D1B00CDF8B4 /* ReyCommon.h */; };
 		F1BFE98516D3712B00CDF8B4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BFE98416D3712B00CDF8B4 /* QuartzCore.framework */; };
-		F1BFE98716D378CA00CDF8B4 /* ReyPullView_customMoveBtn.h in Resources */ = {isa = PBXBuildFile; fileRef = F1BFE98616D378CA00CDF8B4 /* ReyPullView_customMoveBtn.h */; };
 		F1BFE9B516D4826400CDF8B4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BFE98216D3711100CDF8B4 /* AudioToolbox.framework */; };
-		F1BFE9B716D483FD00CDF8B4 /* ReyPullView_multiMoveBtn.h in Resources */ = {isa = PBXBuildFile; fileRef = F1BFE9B616D483FD00CDF8B4 /* ReyPullView_multiMoveBtn.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F1BFE93816D3666B00CDF8B4 /* PBXContainerItemProxy */ = {
+		F1A2AFAF177AE016001C7B19 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F1BFE93316D3666B00CDF8B4 /* ReyCore.xcodeproj */;
+			containerPortal = F1A2AFA9177AE016001C7B19 /* ReyCore.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = F165F11F147DF4E100EA1F00;
 			remoteInfo = ReyCore;
 		};
-		F1BFE93A16D3666B00CDF8B4 /* PBXContainerItemProxy */ = {
+		F1A2AFB1177AE016001C7B19 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F1BFE93316D3666B00CDF8B4 /* ReyCore.xcodeproj */;
+			containerPortal = F1A2AFA9177AE016001C7B19 /* ReyCore.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = F18B3BE114F25CC50041865F;
 			remoteInfo = ReyCorei386;
@@ -65,12 +105,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F11BABF716D5CBA000614A2A /* ReyCoreBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ReyCoreBundle.bundle; sourceTree = "<group>"; };
 		F12F2A3317019F3C00C4F5F2 /* ReyUloadFileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyUloadFileController.h; sourceTree = "<group>"; };
 		F12F2A3417019F3C00C4F5F2 /* ReyUloadFileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyUloadFileController.m; sourceTree = "<group>"; };
 		F12F2A3517019F3C00C4F5F2 /* ReyUloadFileController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReyUloadFileController.xib; sourceTree = "<group>"; };
-		F12F2A3817019F7400C4F5F2 /* ReyShareRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReyShareRequest.h; path = "../../ReyCore-GitHub/ReyCore/ReyCore/ReyShareRequest.h"; sourceTree = "<group>"; };
-		F12F2A3A17019F8200C4F5F2 /* ReyDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReyDownload.h; path = "../../ReyCore-GitHub/ReyCore/ReyCore/ReyDownload.h"; sourceTree = "<group>"; };
 		F12F2A3C17019FD900C4F5F2 /* upomp_bypay_loading_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upomp_bypay_loading_bg.png; sourceTree = "<group>"; };
 		F13C15B716D3633F004B2FC9 /* ReyCoreDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReyCoreDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13C15BA16D3633F004B2FC9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -95,23 +132,29 @@
 		F13C15DE16D3633F004B2FC9 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		F13C15E116D3633F004B2FC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ReyFirstViewController.xib; sourceTree = "<group>"; };
 		F13C15E416D3633F004B2FC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ReySecondViewController.xib; sourceTree = "<group>"; };
+		F1A2AFA9177AE016001C7B19 /* ReyCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReyCore.xcodeproj; path = ReyCore/ReyCore.xcodeproj; sourceTree = "<group>"; };
+		F1A2AFB9177AE05F001C7B19 /* ReyLoadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; name = ReyLoadView.h; path = ReyCore/ReyCore/ReyLoadView.h; sourceTree = "<group>"; };
+		F1A2AFBB177AE075001C7B19 /* ReyBreakLoadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; name = ReyBreakLoadView.h; path = ReyCore/ReyCore/ReyBreakLoadView.h; sourceTree = "<group>"; };
+		F1A2AFBD177AE08D001C7B19 /* ReyDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; name = ReyDownload.h; path = ReyCore/ReyCore/ReyDownload.h; sourceTree = "<group>"; };
+		F1A2AFBF177AE0A7001C7B19 /* ReyShareRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; name = ReyShareRequest.h; path = ReyCore/ReyCore/ReyShareRequest.h; sourceTree = "<group>"; };
+		F1A2AFC1177AE0D6001C7B19 /* ReyPullView_customMoveBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; name = ReyPullView_customMoveBtn.h; path = ReyCore/ReyCore/ReyPullView_customMoveBtn.h; sourceTree = "<group>"; };
+		F1A2AFC3177AE0EC001C7B19 /* ReyPullView_moveBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; name = ReyPullView_moveBtn.h; path = ReyCore/ReyCore/ReyPullView_moveBtn.h; sourceTree = "<group>"; };
+		F1A2AFC5177AE0F7001C7B19 /* ReyPullView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; name = ReyPullView.h; path = ReyCore/ReyCore/ReyPullView.h; sourceTree = "<group>"; };
+		F1A2AFC7177AE113001C7B19 /* ReyCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; name = ReyCommon.h; path = ReyCore/ReyCore/ReyCommon.h; sourceTree = "<group>"; };
+		F1A2AFCA177AE178001C7B19 /* ReyCoreBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ReyCoreBundle.bundle; sourceTree = "<group>"; };
+		F1A2AFF9177AE185001C7B19 /* ReyCoreDemo copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReyCoreDemo copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1A2AFFA177AE185001C7B19 /* ReyCoreDemo copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ReyCoreDemo copy-Info.plist"; path = "/Volumes/C/ReyCoreDemo/ReyCoreDemo/ReyCoreDemo copy-Info.plist"; sourceTree = "<absolute>"; };
+		F1A2AFFF177AE348001C7B19 /* ReyPullView_multiMoveBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; name = ReyPullView_multiMoveBtn.h; path = ReyCore/ReyCore/ReyPullView_multiMoveBtn.h; sourceTree = "<group>"; };
 		F1B71FBF170D5C1F00E2FF66 /* ReyLoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyLoadingViewController.h; sourceTree = "<group>"; };
 		F1B71FC0170D5C1F00E2FF66 /* ReyLoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyLoadingViewController.m; sourceTree = "<group>"; };
 		F1B71FC1170D5C1F00E2FF66 /* ReyLoadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReyLoadingViewController.xib; sourceTree = "<group>"; };
-		F1B71FC4170D5DA200E2FF66 /* ReyBreakLoadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; name = ReyBreakLoadView.h; path = "../../ReyCore-GitHub/ReyCore/ReyCore/ReyBreakLoadView.h"; sourceTree = "<group>"; };
-		F1B71FC6170D5DB000E2FF66 /* ReyLoadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; name = ReyLoadView.h; path = "../../ReyCore-GitHub/ReyCore/ReyCore/ReyLoadView.h"; sourceTree = "<group>"; };
 		F1B71FC8170D5E9100E2FF66 /* load1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = load1.jpg; sourceTree = "<group>"; };
 		F1B71FC9170D5E9100E2FF66 /* load2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = load2.jpg; sourceTree = "<group>"; };
-		F1BFE93316D3666B00CDF8B4 /* ReyCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReyCore.xcodeproj; path = "../../ReyCore-GitHub/ReyCore/ReyCore.xcodeproj"; sourceTree = "<group>"; };
 		F1BFE97816D36CA800CDF8B4 /* ReyPullViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyPullViewController.h; sourceTree = "<group>"; };
 		F1BFE97916D36CA800CDF8B4 /* ReyPullViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyPullViewController.m; sourceTree = "<group>"; };
 		F1BFE97A16D36CA800CDF8B4 /* ReyPullViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReyPullViewController.xib; sourceTree = "<group>"; };
-		F1BFE97E16D36CFD00CDF8B4 /* ReyPullView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReyPullView.h; path = "../../ReyCore-GitHub/ReyCore/ReyCore/ReyPullView.h"; sourceTree = "<group>"; };
-		F1BFE98016D36D1B00CDF8B4 /* ReyCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReyCommon.h; path = "../../ReyCore-GitHub/ReyCore/ReyCore/ReyCommon.h"; sourceTree = "<group>"; };
 		F1BFE98216D3711100CDF8B4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		F1BFE98416D3712B00CDF8B4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		F1BFE98616D378CA00CDF8B4 /* ReyPullView_customMoveBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReyPullView_customMoveBtn.h; path = "../../ReyCore-GitHub/ReyCore/ReyCore/ReyPullView_customMoveBtn.h"; sourceTree = "<group>"; };
-		F1BFE9B616D483FD00CDF8B4 /* ReyPullView_multiMoveBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReyPullView_multiMoveBtn.h; path = "../../ReyCore-GitHub/ReyCore/ReyCore/ReyPullView_multiMoveBtn.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,12 +162,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1A2AFC9177AE13C001C7B19 /* libReyCore.a in Frameworks */,
 				F1BFE9B516D4826400CDF8B4 /* AudioToolbox.framework in Frameworks */,
 				F1BFE98516D3712B00CDF8B4 /* QuartzCore.framework in Frameworks */,
-				F1BFE93F16D3668800CDF8B4 /* libReyCore copy.a in Frameworks */,
 				F13C15BB16D3633F004B2FC9 /* UIKit.framework in Frameworks */,
 				F13C15BD16D3633F004B2FC9 /* Foundation.framework in Frameworks */,
 				F13C15BF16D3633F004B2FC9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1A2AFD5177AE185001C7B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1A2B002177AE357001C7B19 /* libReyCore copy.a in Frameworks */,
+				F1A2AFD7177AE185001C7B19 /* AudioToolbox.framework in Frameworks */,
+				F1A2AFD8177AE185001C7B19 /* QuartzCore.framework in Frameworks */,
+				F1A2AFD9177AE185001C7B19 /* UIKit.framework in Frameworks */,
+				F1A2AFDA177AE185001C7B19 /* Foundation.framework in Frameworks */,
+				F1A2AFDB177AE185001C7B19 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +204,7 @@
 				F13C15C016D3633F004B2FC9 /* ReyCoreDemo */,
 				F13C15B916D3633F004B2FC9 /* Frameworks */,
 				F13C15B816D3633F004B2FC9 /* Products */,
+				F1A2AFFA177AE185001C7B19 /* ReyCoreDemo copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				F13C15B716D3633F004B2FC9 /* ReyCoreDemo.app */,
+				F1A2AFF9177AE185001C7B19 /* ReyCoreDemo copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -211,6 +269,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F1A2AFAA177AE016001C7B19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1A2AFB0177AE016001C7B19 /* libReyCore.a */,
+				F1A2AFB2177AE016001C7B19 /* libReyCore copy.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		F1B71FBC170D5BFB00E2FF66 /* ReyLoading */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,33 +291,25 @@
 		F1BFE93216D3654600CDF8B4 /* ReyCoreHead */ = {
 			isa = PBXGroup;
 			children = (
-				F1B71FC6170D5DB000E2FF66 /* ReyLoadView.h */,
-				F1B71FC4170D5DA200E2FF66 /* ReyBreakLoadView.h */,
-				F12F2A3A17019F8200C4F5F2 /* ReyDownload.h */,
-				F12F2A3817019F7400C4F5F2 /* ReyShareRequest.h */,
-				F1BFE9B616D483FD00CDF8B4 /* ReyPullView_multiMoveBtn.h */,
-				F1BFE98616D378CA00CDF8B4 /* ReyPullView_customMoveBtn.h */,
-				F1BFE97E16D36CFD00CDF8B4 /* ReyPullView.h */,
-				F1BFE98016D36D1B00CDF8B4 /* ReyCommon.h */,
+				F1A2AFB9177AE05F001C7B19 /* ReyLoadView.h */,
+				F1A2AFBB177AE075001C7B19 /* ReyBreakLoadView.h */,
+				F1A2AFBD177AE08D001C7B19 /* ReyDownload.h */,
+				F1A2AFBF177AE0A7001C7B19 /* ReyShareRequest.h */,
+				F1A2AFC1177AE0D6001C7B19 /* ReyPullView_customMoveBtn.h */,
+				F1A2AFFF177AE348001C7B19 /* ReyPullView_multiMoveBtn.h */,
+				F1A2AFC3177AE0EC001C7B19 /* ReyPullView_moveBtn.h */,
+				F1A2AFC5177AE0F7001C7B19 /* ReyPullView.h */,
+				F1A2AFC7177AE113001C7B19 /* ReyCommon.h */,
 			);
 			name = ReyCoreHead;
-			sourceTree = "<group>";
-		};
-		F1BFE93416D3666B00CDF8B4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F1BFE93916D3666B00CDF8B4 /* libReyCore.a */,
-				F1BFE93B16D3666B00CDF8B4 /* libReyCore copy.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		F1BFE94016D3669500CDF8B4 /* ReyCore */ = {
 			isa = PBXGroup;
 			children = (
-				F11BABF716D5CBA000614A2A /* ReyCoreBundle.bundle */,
+				F1A2AFCA177AE178001C7B19 /* ReyCoreBundle.bundle */,
+				F1A2AFA9177AE016001C7B19 /* ReyCore.xcodeproj */,
 				F1BFE93216D3654600CDF8B4 /* ReyCoreHead */,
-				F1BFE93316D3666B00CDF8B4 /* ReyCore.xcodeproj */,
 			);
 			name = ReyCore;
 			sourceTree = "<group>";
@@ -285,6 +344,23 @@
 			productReference = F13C15B716D3633F004B2FC9 /* ReyCoreDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F1A2AFCC177AE185001C7B19 /* ReyCoreDemoi386 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1A2AFF6177AE185001C7B19 /* Build configuration list for PBXNativeTarget "ReyCoreDemoi386" */;
+			buildPhases = (
+				F1A2AFCD177AE185001C7B19 /* Sources */,
+				F1A2AFD5177AE185001C7B19 /* Frameworks */,
+				F1A2AFDC177AE185001C7B19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReyCoreDemoi386;
+			productName = ReyCoreDemo;
+			productReference = F1A2AFF9177AE185001C7B19 /* ReyCoreDemo copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -307,30 +383,31 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = F1BFE93416D3666B00CDF8B4 /* Products */;
-					ProjectRef = F1BFE93316D3666B00CDF8B4 /* ReyCore.xcodeproj */;
+					ProductGroup = F1A2AFAA177AE016001C7B19 /* Products */;
+					ProjectRef = F1A2AFA9177AE016001C7B19 /* ReyCore.xcodeproj */;
 				},
 			);
 			projectRoot = "";
 			targets = (
 				F13C15B616D3633F004B2FC9 /* ReyCoreDemo */,
+				F1A2AFCC177AE185001C7B19 /* ReyCoreDemoi386 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		F1BFE93916D3666B00CDF8B4 /* libReyCore.a */ = {
+		F1A2AFB0177AE016001C7B19 /* libReyCore.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libReyCore.a;
-			remoteRef = F1BFE93816D3666B00CDF8B4 /* PBXContainerItemProxy */;
+			remoteRef = F1A2AFAF177AE016001C7B19 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		F1BFE93B16D3666B00CDF8B4 /* libReyCore copy.a */ = {
+		F1A2AFB2177AE016001C7B19 /* libReyCore copy.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libReyCore copy.a";
-			remoteRef = F1BFE93A16D3666B00CDF8B4 /* PBXContainerItemProxy */;
+			remoteRef = F1A2AFB1177AE016001C7B19 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -351,20 +428,54 @@
 				F13C15E216D3633F004B2FC9 /* ReyFirstViewController.xib in Resources */,
 				F13C15E516D3633F004B2FC9 /* ReySecondViewController.xib in Resources */,
 				F1BFE97C16D36CA800CDF8B4 /* ReyPullViewController.xib in Resources */,
-				F1BFE97F16D36CFD00CDF8B4 /* ReyPullView.h in Resources */,
-				F1BFE98116D36D1B00CDF8B4 /* ReyCommon.h in Resources */,
-				F1BFE98716D378CA00CDF8B4 /* ReyPullView_customMoveBtn.h in Resources */,
-				F1BFE9B716D483FD00CDF8B4 /* ReyPullView_multiMoveBtn.h in Resources */,
-				F11BABF816D5CBA000614A2A /* ReyCoreBundle.bundle in Resources */,
 				F12F2A3717019F3C00C4F5F2 /* ReyUloadFileController.xib in Resources */,
-				F12F2A3917019F7400C4F5F2 /* ReyShareRequest.h in Resources */,
-				F12F2A3B17019F8200C4F5F2 /* ReyDownload.h in Resources */,
 				F12F2A3D17019FD900C4F5F2 /* upomp_bypay_loading_bg.png in Resources */,
 				F1B71FC3170D5C1F00E2FF66 /* ReyLoadingViewController.xib in Resources */,
-				F1B71FC5170D5DA200E2FF66 /* ReyBreakLoadView.h in Resources */,
-				F1B71FC7170D5DB000E2FF66 /* ReyLoadView.h in Resources */,
 				F1B71FCA170D5E9100E2FF66 /* load1.jpg in Resources */,
 				F1B71FCB170D5E9100E2FF66 /* load2.jpg in Resources */,
+				F1A2AFBA177AE05F001C7B19 /* ReyLoadView.h in Resources */,
+				F1A2AFBC177AE075001C7B19 /* ReyBreakLoadView.h in Resources */,
+				F1A2AFBE177AE08D001C7B19 /* ReyDownload.h in Resources */,
+				F1A2AFC0177AE0A7001C7B19 /* ReyShareRequest.h in Resources */,
+				F1A2AFC2177AE0D6001C7B19 /* ReyPullView_customMoveBtn.h in Resources */,
+				F1A2AFC4177AE0EC001C7B19 /* ReyPullView_moveBtn.h in Resources */,
+				F1A2AFC6177AE0F7001C7B19 /* ReyPullView.h in Resources */,
+				F1A2AFC8177AE113001C7B19 /* ReyCommon.h in Resources */,
+				F1A2AFCB177AE178001C7B19 /* ReyCoreBundle.bundle in Resources */,
+				F1A2B000177AE348001C7B19 /* ReyPullView_multiMoveBtn.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1A2AFDC177AE185001C7B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1A2AFDD177AE185001C7B19 /* InfoPlist.strings in Resources */,
+				F1A2AFDE177AE185001C7B19 /* Default.png in Resources */,
+				F1A2AFDF177AE185001C7B19 /* Default@2x.png in Resources */,
+				F1A2AFE0177AE185001C7B19 /* Default-568h@2x.png in Resources */,
+				F1A2AFE1177AE185001C7B19 /* first.png in Resources */,
+				F1A2AFE2177AE185001C7B19 /* first@2x.png in Resources */,
+				F1A2AFE3177AE185001C7B19 /* second.png in Resources */,
+				F1A2AFE4177AE185001C7B19 /* second@2x.png in Resources */,
+				F1A2AFE5177AE185001C7B19 /* ReyFirstViewController.xib in Resources */,
+				F1A2AFE6177AE185001C7B19 /* ReySecondViewController.xib in Resources */,
+				F1A2AFE7177AE185001C7B19 /* ReyPullViewController.xib in Resources */,
+				F1A2AFE8177AE185001C7B19 /* ReyUloadFileController.xib in Resources */,
+				F1A2AFE9177AE185001C7B19 /* upomp_bypay_loading_bg.png in Resources */,
+				F1A2AFEA177AE185001C7B19 /* ReyLoadingViewController.xib in Resources */,
+				F1A2AFEB177AE185001C7B19 /* load1.jpg in Resources */,
+				F1A2AFEC177AE185001C7B19 /* load2.jpg in Resources */,
+				F1A2AFED177AE185001C7B19 /* ReyLoadView.h in Resources */,
+				F1A2AFEE177AE185001C7B19 /* ReyBreakLoadView.h in Resources */,
+				F1A2AFEF177AE185001C7B19 /* ReyDownload.h in Resources */,
+				F1A2AFF0177AE185001C7B19 /* ReyShareRequest.h in Resources */,
+				F1A2AFF1177AE185001C7B19 /* ReyPullView_customMoveBtn.h in Resources */,
+				F1A2AFF2177AE185001C7B19 /* ReyPullView_moveBtn.h in Resources */,
+				F1A2AFF3177AE185001C7B19 /* ReyPullView.h in Resources */,
+				F1A2AFF4177AE185001C7B19 /* ReyCommon.h in Resources */,
+				F1A2AFF5177AE185001C7B19 /* ReyCoreBundle.bundle in Resources */,
+				F1A2B001177AE348001C7B19 /* ReyPullView_multiMoveBtn.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +493,20 @@
 				F1BFE97B16D36CA800CDF8B4 /* ReyPullViewController.m in Sources */,
 				F12F2A3617019F3C00C4F5F2 /* ReyUloadFileController.m in Sources */,
 				F1B71FC2170D5C1F00E2FF66 /* ReyLoadingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1A2AFCD177AE185001C7B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1A2AFCE177AE185001C7B19 /* main.m in Sources */,
+				F1A2AFCF177AE185001C7B19 /* ReyAppDelegate.m in Sources */,
+				F1A2AFD0177AE185001C7B19 /* ReyFirstViewController.m in Sources */,
+				F1A2AFD1177AE185001C7B19 /* ReySecondViewController.m in Sources */,
+				F1A2AFD2177AE185001C7B19 /* ReyPullViewController.m in Sources */,
+				F1A2AFD3177AE185001C7B19 /* ReyUloadFileController.m in Sources */,
+				F1A2AFD4177AE185001C7B19 /* ReyLoadingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +602,7 @@
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "ReyCoreDemo/ReyCoreDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -489,6 +615,33 @@
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "ReyCoreDemo/ReyCoreDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F1A2AFF7177AE185001C7B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReyCoreDemo/ReyCoreDemo-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "ReyCoreDemo copy-Info.plist";
+				PRODUCT_NAME = "ReyCoreDemo copy";
+				SUPPORTED_PLATFORMS = iphonesimulator;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F1A2AFF8177AE185001C7B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReyCoreDemo/ReyCoreDemo-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "ReyCoreDemo copy-Info.plist";
+				PRODUCT_NAME = "ReyCoreDemo copy";
+				SUPPORTED_PLATFORMS = iphonesimulator;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -510,6 +663,15 @@
 			buildConfigurations = (
 				F13C15E916D3633F004B2FC9 /* Debug */,
 				F13C15EA16D3633F004B2FC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1A2AFF6177AE185001C7B19 /* Build configuration list for PBXNativeTarget "ReyCoreDemoi386" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1A2AFF7177AE185001C7B19 /* Debug */,
+				F1A2AFF8177AE185001C7B19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

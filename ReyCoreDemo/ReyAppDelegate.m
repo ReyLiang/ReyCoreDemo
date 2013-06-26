@@ -28,7 +28,7 @@
     UIViewController *viewController1 = [[[ReyFirstViewController alloc] initWithNibName:@"ReyFirstViewController" bundle:nil] autorelease];
     UIViewController *viewController2 = [[[ReySecondViewController alloc] initWithNibName:@"ReySecondViewController" bundle:nil] autorelease];
     self.tabBarController = [[[UITabBarController alloc] init] autorelease];
-    self.tabBarController.viewControllers = @[viewController1, viewController2];
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, viewController2, nil];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;
