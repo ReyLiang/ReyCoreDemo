@@ -283,7 +283,7 @@
     CAAnimation * animation = [ReyAnimation GetPointMoveBasicAnimation:startPoint endPoint:endPoint];
     animation.delegate = delegate;
     animation.duration = duration;
-    animation.repeatCount	= 1;
+    animation.repeatCount = 0;
     animation.removedOnCompletion = NO;
     [targetView.layer addAnimation:animation forKey:key];
 }
@@ -301,7 +301,7 @@
     CAAnimation * animation = [ReyAnimation GetPointMoveKeyAnimationWithShake:shakeCount shakeDirection:isVertical startPoint:startPoint endPoint:endPoint];
     animation.delegate = delegate;
     animation.duration = duration;
-    animation.repeatCount	= 1;
+    animation.repeatCount = 0;
     [targetView.layer addAnimation:animation forKey:key];
 }
 
@@ -315,7 +315,7 @@
     CAAnimation * animation = [ReyAnimation GetRockerKeyAnimation:angle direction:direction];
     animation.delegate = delegate;
     animation.duration = duration;
-    animation.repeatCount	= 1;
+    animation.repeatCount = 0;
     [targetView.layer addAnimation:animation forKey:key];
 }
 
@@ -339,7 +339,7 @@
     animation.delegate = delegate;
     animation.duration = duration;
     animation.removedOnCompletion = NO;
-    animation.repeatCount	= 1;
+    animation.repeatCount = 0;
     [targetView.layer addAnimation:animation forKey:key];
     
 }
@@ -356,7 +356,7 @@
     animation.delegate = delegate;
     animation.duration = duration;
     animation.removedOnCompletion = NO;
-    animation.repeatCount	= 1;    
+    animation.repeatCount = 0;
     [targetView.layer addAnimation:animation forKey:key];
     
 }
@@ -370,35 +370,35 @@
     animation.delegate = nil;
     animation.duration = 0.1*time;
     animation.removedOnCompletion = NO;
-    animation.repeatCount	= 1;
+    animation.repeatCount = 0;
     animation.beginTime = 0;
     
     CAAnimation * animation1 = [ReyAnimation GetKeyAnimationWithScale:CGSizeMake(1.1, 1.1) transform3D:targetView.layer.transform isFromView:YES];
     animation1.delegate = nil;
     animation1.duration = 0.05*time;
     animation1.removedOnCompletion = NO;
-    animation1.repeatCount	= 1;
+    animation1.repeatCount = 0;
     animation1.beginTime = 0.1*time;
     
     CAAnimation * animation2 = [ReyAnimation GetKeyAnimationWithScale:CGSizeMake(1.1, 1.1) transform3D:targetView.layer.transform isFromView:NO];
     animation2.delegate = nil;
     animation2.duration = 0.05*time;
     animation2.removedOnCompletion = NO;
-    animation2.repeatCount	= 1;
+    animation2.repeatCount = 0;
     animation2.beginTime = 0.15*time;
     
     CAAnimation * animation3 = [ReyAnimation GetKeyAnimationWithScale:CGSizeMake(0.9, 0.9) transform3D:targetView.layer.transform isFromView:YES];
     animation3.delegate = nil;
     animation3.duration = 0.03*time;
     animation3.removedOnCompletion = NO;
-    animation3.repeatCount	= 1;
+    animation3.repeatCount = 0;
     animation3.beginTime = 0.2*time;
     
     CAAnimation * animation4 = [ReyAnimation GetKeyAnimationWithScale:CGSizeMake(0.9, 0.9) transform3D:targetView.layer.transform isFromView:NO];
     animation4.delegate = nil;
     animation4.duration = 0.05*time;
     animation4.removedOnCompletion = NO;
-    animation4.repeatCount	= 1;
+    animation4.repeatCount = 0;
     animation4.beginTime = 0.23*time;
     
     CAAnimationGroup * group = [CAAnimationGroup animation];
@@ -406,7 +406,7 @@
     group.delegate = delegate;
     group.duration = 0.28*time;
     group.removedOnCompletion = NO;
-    group.repeatCount	= 1;
+    group.repeatCount = 0;
     group.fillMode = kCAFillModeForwards;
     //    group.timeOffset = 0.23;
     
@@ -428,7 +428,7 @@
     animation.delegate = delegate;
     animation.duration = duration;
     animation.removedOnCompletion = NO;
-    animation.repeatCount	= 1;
+    animation.repeatCount = 0;
     [targetView.layer addAnimation:animation forKey:key];
     
 }
@@ -444,7 +444,7 @@
     animation.delegate = delegate;
     animation.duration = duration;
     animation.removedOnCompletion = NO;
-    animation.repeatCount	= 1;
+    animation.repeatCount = 0;
     [targetView.layer addAnimation:animation forKey:key];
     
 }
@@ -460,7 +460,7 @@
     animation.delegate = delegate;
     animation.duration = duration;
     animation.removedOnCompletion = NO;
-    animation.repeatCount	= 1;
+    animation.repeatCount = 0;
     [targetView.layer addAnimation:animation forKey:key];
     
 }
