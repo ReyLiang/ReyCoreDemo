@@ -57,26 +57,6 @@
 		F12D309815206B120022A198 /* ReyDownload_cache.m in Sources */ = {isa = PBXBuildFile; fileRef = F12D309415206B120022A198 /* ReyDownload_cache.m */; };
 		F1300F7A14979B87001AA8E3 /* ReyLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = F1300F7814979B87001AA8E3 /* ReyLoading.h */; };
 		F1300F7B14979B87001AA8E3 /* ReyLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = F1300F7914979B87001AA8E3 /* ReyLoading.m */; };
-		F1369DE717F2874200EC1C1F /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = F1369DDD17F2874200EC1C1F /* FMDatabase.h */; };
-		F1369DE817F2874200EC1C1F /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = F1369DDD17F2874200EC1C1F /* FMDatabase.h */; };
-		F1369DE917F2874200EC1C1F /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = F1369DDE17F2874200EC1C1F /* FMDatabase.m */; };
-		F1369DEA17F2874200EC1C1F /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = F1369DDE17F2874200EC1C1F /* FMDatabase.m */; };
-		F1369DEB17F2874200EC1C1F /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F1369DDF17F2874200EC1C1F /* FMDatabaseAdditions.h */; };
-		F1369DEC17F2874200EC1C1F /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F1369DDF17F2874200EC1C1F /* FMDatabaseAdditions.h */; };
-		F1369DED17F2874200EC1C1F /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F1369DE017F2874200EC1C1F /* FMDatabaseAdditions.m */; };
-		F1369DEE17F2874200EC1C1F /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F1369DE017F2874200EC1C1F /* FMDatabaseAdditions.m */; };
-		F1369DEF17F2874200EC1C1F /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = F1369DE117F2874200EC1C1F /* FMDatabasePool.h */; };
-		F1369DF017F2874200EC1C1F /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = F1369DE117F2874200EC1C1F /* FMDatabasePool.h */; };
-		F1369DF117F2874200EC1C1F /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = F1369DE217F2874200EC1C1F /* FMDatabasePool.m */; };
-		F1369DF217F2874200EC1C1F /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = F1369DE217F2874200EC1C1F /* FMDatabasePool.m */; };
-		F1369DF317F2874200EC1C1F /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = F1369DE317F2874200EC1C1F /* FMDatabaseQueue.h */; };
-		F1369DF417F2874200EC1C1F /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = F1369DE317F2874200EC1C1F /* FMDatabaseQueue.h */; };
-		F1369DF517F2874200EC1C1F /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F1369DE417F2874200EC1C1F /* FMDatabaseQueue.m */; };
-		F1369DF617F2874200EC1C1F /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F1369DE417F2874200EC1C1F /* FMDatabaseQueue.m */; };
-		F1369DF717F2874200EC1C1F /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = F1369DE517F2874200EC1C1F /* FMResultSet.h */; };
-		F1369DF817F2874200EC1C1F /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = F1369DE517F2874200EC1C1F /* FMResultSet.h */; };
-		F1369DF917F2874200EC1C1F /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F1369DE617F2874200EC1C1F /* FMResultSet.m */; };
-		F1369DFA17F2874200EC1C1F /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F1369DE617F2874200EC1C1F /* FMResultSet.m */; };
 		F138909015CFB7510066A5F9 /* ReyLabel_rocker.h in Headers */ = {isa = PBXBuildFile; fileRef = F138908E15CFB7510066A5F9 /* ReyLabel_rocker.h */; };
 		F138909115CFB7510066A5F9 /* ReyLabel_rocker.h in Headers */ = {isa = PBXBuildFile; fileRef = F138908E15CFB7510066A5F9 /* ReyLabel_rocker.h */; };
 		F138909215CFB7510066A5F9 /* ReyLabel_rocker.m in Sources */ = {isa = PBXBuildFile; fileRef = F138908F15CFB7510066A5F9 /* ReyLabel_rocker.m */; };
@@ -99,6 +79,10 @@
 		F13A69DB15198277009E2DDF /* ReyNetWorkStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = F13A69D815198277009E2DDF /* ReyNetWorkStatus.h */; };
 		F13A69DC15198277009E2DDF /* ReyNetWorkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = F13A69D915198277009E2DDF /* ReyNetWorkStatus.m */; };
 		F13A69DD15198277009E2DDF /* ReyNetWorkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = F13A69D915198277009E2DDF /* ReyNetWorkStatus.m */; };
+		F1441BE017F5467A00C5599F /* UIDeviceHardware.h in Headers */ = {isa = PBXBuildFile; fileRef = F1441BDE17F5467900C5599F /* UIDeviceHardware.h */; };
+		F1441BE117F5467A00C5599F /* UIDeviceHardware.h in Headers */ = {isa = PBXBuildFile; fileRef = F1441BDE17F5467900C5599F /* UIDeviceHardware.h */; };
+		F1441BE217F5467A00C5599F /* UIDeviceHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = F1441BDF17F5467A00C5599F /* UIDeviceHardware.m */; };
+		F1441BE317F5467A00C5599F /* UIDeviceHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = F1441BDF17F5467A00C5599F /* UIDeviceHardware.m */; };
 		F144D2F414C3F461000B69EA /* ReyRotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = F144D2F214C3F461000B69EA /* ReyRotationView.h */; };
 		F144D2F514C3F461000B69EA /* ReyRotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F144D2F314C3F461000B69EA /* ReyRotationView.m */; };
 		F144D31814C3FBDF000B69EA /* ReyHelpView.h in Headers */ = {isa = PBXBuildFile; fileRef = F144D31614C3FBDF000B69EA /* ReyHelpView.h */; };
@@ -121,6 +105,10 @@
 		F147021017EC35A500D54977 /* ReyHpple.h in Headers */ = {isa = PBXBuildFile; fileRef = F147020D17EC35A500D54977 /* ReyHpple.h */; };
 		F147021117EC35A500D54977 /* ReyHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = F147020E17EC35A500D54977 /* ReyHpple.m */; };
 		F147021217EC35A500D54977 /* ReyHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = F147020E17EC35A500D54977 /* ReyHpple.m */; };
+		F14882A717FABF5F00A1BC58 /* ReyUrlDowanload.h in Headers */ = {isa = PBXBuildFile; fileRef = F14882A517FABF5F00A1BC58 /* ReyUrlDowanload.h */; };
+		F14882A817FABF5F00A1BC58 /* ReyUrlDowanload.h in Headers */ = {isa = PBXBuildFile; fileRef = F14882A517FABF5F00A1BC58 /* ReyUrlDowanload.h */; };
+		F14882A917FABF5F00A1BC58 /* ReyUrlDowanload.m in Sources */ = {isa = PBXBuildFile; fileRef = F14882A617FABF5F00A1BC58 /* ReyUrlDowanload.m */; };
+		F14882AA17FABF5F00A1BC58 /* ReyUrlDowanload.m in Sources */ = {isa = PBXBuildFile; fileRef = F14882A617FABF5F00A1BC58 /* ReyUrlDowanload.m */; };
 		F14C206A14DBA35E009240C5 /* ReyButton_rotation.h in Headers */ = {isa = PBXBuildFile; fileRef = F14C206814DBA35E009240C5 /* ReyButton_rotation.h */; };
 		F14C206B14DBA35E009240C5 /* ReyButton_rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F14C206914DBA35E009240C5 /* ReyButton_rotation.m */; };
 		F14FD3F714C416DA0048BF61 /* ReyPullView_multiMoveBtn.h in Headers */ = {isa = PBXBuildFile; fileRef = F14FD3F514C416DA0048BF61 /* ReyPullView_multiMoveBtn.h */; };
@@ -192,6 +180,42 @@
 		F1670DA91592B9A8001DC6A5 /* ReyAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = F1670DA41592B9A8001DC6A5 /* ReyAnnotationView.h */; };
 		F1670DAA1592B9A8001DC6A5 /* ReyAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1670DA51592B9A8001DC6A5 /* ReyAnnotationView.m */; };
 		F1670DAB1592B9A8001DC6A5 /* ReyAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1670DA51592B9A8001DC6A5 /* ReyAnnotationView.m */; };
+		F167B2361B217889004FB006 /* FMDatabase+FTS3.h in Headers */ = {isa = PBXBuildFile; fileRef = F167B21F1B217889004FB006 /* FMDatabase+FTS3.h */; };
+		F167B2371B217889004FB006 /* FMDatabase+FTS3.h in Headers */ = {isa = PBXBuildFile; fileRef = F167B21F1B217889004FB006 /* FMDatabase+FTS3.h */; };
+		F167B2381B217889004FB006 /* FMDatabase+FTS3.m in Sources */ = {isa = PBXBuildFile; fileRef = F167B2201B217889004FB006 /* FMDatabase+FTS3.m */; };
+		F167B2391B217889004FB006 /* FMDatabase+FTS3.m in Sources */ = {isa = PBXBuildFile; fileRef = F167B2201B217889004FB006 /* FMDatabase+FTS3.m */; };
+		F167B23A1B217889004FB006 /* FMTokenizers.h in Headers */ = {isa = PBXBuildFile; fileRef = F167B2211B217889004FB006 /* FMTokenizers.h */; };
+		F167B23B1B217889004FB006 /* FMTokenizers.h in Headers */ = {isa = PBXBuildFile; fileRef = F167B2211B217889004FB006 /* FMTokenizers.h */; };
+		F167B23C1B217889004FB006 /* FMTokenizers.m in Sources */ = {isa = PBXBuildFile; fileRef = F167B2221B217889004FB006 /* FMTokenizers.m */; };
+		F167B23D1B217889004FB006 /* FMTokenizers.m in Sources */ = {isa = PBXBuildFile; fileRef = F167B2221B217889004FB006 /* FMTokenizers.m */; };
+		F167B23E1B217889004FB006 /* fts3_tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = F167B2231B217889004FB006 /* fts3_tokenizer.h */; };
+		F167B23F1B217889004FB006 /* fts3_tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = F167B2231B217889004FB006 /* fts3_tokenizer.h */; };
+		F167B2401B217889004FB006 /* FMDatabase+InMemoryOnDiskIO.h in Headers */ = {isa = PBXBuildFile; fileRef = F167B2251B217889004FB006 /* FMDatabase+InMemoryOnDiskIO.h */; };
+		F167B2411B217889004FB006 /* FMDatabase+InMemoryOnDiskIO.h in Headers */ = {isa = PBXBuildFile; fileRef = F167B2251B217889004FB006 /* FMDatabase+InMemoryOnDiskIO.h */; };
+		F167B2421B217889004FB006 /* FMDatabase+InMemoryOnDiskIO.m in Sources */ = {isa = PBXBuildFile; fileRef = F167B2261B217889004FB006 /* FMDatabase+InMemoryOnDiskIO.m */; };
+		F167B2431B217889004FB006 /* FMDatabase+InMemoryOnDiskIO.m in Sources */ = {isa = PBXBuildFile; fileRef = F167B2261B217889004FB006 /* FMDatabase+InMemoryOnDiskIO.m */; };
+		F167B2481B217889004FB006 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = F167B22B1B217889004FB006 /* FMDatabase.h */; };
+		F167B2491B217889004FB006 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = F167B22B1B217889004FB006 /* FMDatabase.h */; };
+		F167B24A1B217889004FB006 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = F167B22C1B217889004FB006 /* FMDatabase.m */; };
+		F167B24B1B217889004FB006 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = F167B22C1B217889004FB006 /* FMDatabase.m */; };
+		F167B24C1B217889004FB006 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F167B22D1B217889004FB006 /* FMDatabaseAdditions.h */; };
+		F167B24D1B217889004FB006 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F167B22D1B217889004FB006 /* FMDatabaseAdditions.h */; };
+		F167B24E1B217889004FB006 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F167B22E1B217889004FB006 /* FMDatabaseAdditions.m */; };
+		F167B24F1B217889004FB006 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F167B22E1B217889004FB006 /* FMDatabaseAdditions.m */; };
+		F167B2501B217889004FB006 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = F167B22F1B217889004FB006 /* FMDatabasePool.h */; };
+		F167B2511B217889004FB006 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = F167B22F1B217889004FB006 /* FMDatabasePool.h */; };
+		F167B2521B217889004FB006 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = F167B2301B217889004FB006 /* FMDatabasePool.m */; };
+		F167B2531B217889004FB006 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = F167B2301B217889004FB006 /* FMDatabasePool.m */; };
+		F167B2541B217889004FB006 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = F167B2311B217889004FB006 /* FMDatabaseQueue.h */; };
+		F167B2551B217889004FB006 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = F167B2311B217889004FB006 /* FMDatabaseQueue.h */; };
+		F167B2561B217889004FB006 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F167B2321B217889004FB006 /* FMDatabaseQueue.m */; };
+		F167B2571B217889004FB006 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F167B2321B217889004FB006 /* FMDatabaseQueue.m */; };
+		F167B2581B217889004FB006 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = F167B2331B217889004FB006 /* FMDB.h */; };
+		F167B2591B217889004FB006 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = F167B2331B217889004FB006 /* FMDB.h */; };
+		F167B25A1B217889004FB006 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = F167B2341B217889004FB006 /* FMResultSet.h */; };
+		F167B25B1B217889004FB006 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = F167B2341B217889004FB006 /* FMResultSet.h */; };
+		F167B25C1B217889004FB006 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F167B2351B217889004FB006 /* FMResultSet.m */; };
+		F167B25D1B217889004FB006 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F167B2351B217889004FB006 /* FMResultSet.m */; };
 		F16DB58814C185560059C279 /* ReyCustomAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = F16DB58614C185560059C279 /* ReyCustomAlert.h */; };
 		F16DB58914C185560059C279 /* ReyCustomAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = F16DB58714C185560059C279 /* ReyCustomAlert.m */; };
 		F17D871716704504007B7F4F /* IPAdress.h in Headers */ = {isa = PBXBuildFile; fileRef = F17D871616704504007B7F4F /* IPAdress.h */; };
@@ -545,16 +569,6 @@
 		F12D309415206B120022A198 /* ReyDownload_cache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyDownload_cache.m; sourceTree = "<group>"; };
 		F1300F7814979B87001AA8E3 /* ReyLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyLoading.h; sourceTree = "<group>"; };
 		F1300F7914979B87001AA8E3 /* ReyLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyLoading.m; sourceTree = "<group>"; };
-		F1369DDD17F2874200EC1C1F /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
-		F1369DDE17F2874200EC1C1F /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
-		F1369DDF17F2874200EC1C1F /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
-		F1369DE017F2874200EC1C1F /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
-		F1369DE117F2874200EC1C1F /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
-		F1369DE217F2874200EC1C1F /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
-		F1369DE317F2874200EC1C1F /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
-		F1369DE417F2874200EC1C1F /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
-		F1369DE517F2874200EC1C1F /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
-		F1369DE617F2874200EC1C1F /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		F138908E15CFB7510066A5F9 /* ReyLabel_rocker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyLabel_rocker.h; sourceTree = "<group>"; };
 		F138908F15CFB7510066A5F9 /* ReyLabel_rocker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyLabel_rocker.m; sourceTree = "<group>"; };
 		F13951251520C41E00AF8244 /* ReyAlert_autoDisconnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyAlert_autoDisconnect.h; sourceTree = "<group>"; };
@@ -566,6 +580,8 @@
 		F13A69D4151981AA009E2DDF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F13A69D815198277009E2DDF /* ReyNetWorkStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyNetWorkStatus.h; sourceTree = "<group>"; };
 		F13A69D915198277009E2DDF /* ReyNetWorkStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyNetWorkStatus.m; sourceTree = "<group>"; };
+		F1441BDE17F5467900C5599F /* UIDeviceHardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDeviceHardware.h; sourceTree = "<group>"; };
+		F1441BDF17F5467A00C5599F /* UIDeviceHardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDeviceHardware.m; sourceTree = "<group>"; };
 		F144D2F214C3F461000B69EA /* ReyRotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyRotationView.h; sourceTree = "<group>"; };
 		F144D2F314C3F461000B69EA /* ReyRotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyRotationView.m; sourceTree = "<group>"; };
 		F144D31614C3FBDF000B69EA /* ReyHelpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyHelpView.h; sourceTree = "<group>"; };
@@ -579,6 +595,8 @@
 		F147020917EC356700D54977 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
 		F147020D17EC35A500D54977 /* ReyHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyHpple.h; sourceTree = "<group>"; };
 		F147020E17EC35A500D54977 /* ReyHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyHpple.m; sourceTree = "<group>"; };
+		F14882A517FABF5F00A1BC58 /* ReyUrlDowanload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyUrlDowanload.h; sourceTree = "<group>"; };
+		F14882A617FABF5F00A1BC58 /* ReyUrlDowanload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyUrlDowanload.m; sourceTree = "<group>"; };
 		F14C206814DBA35E009240C5 /* ReyButton_rotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyButton_rotation.h; sourceTree = "<group>"; };
 		F14C206914DBA35E009240C5 /* ReyButton_rotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyButton_rotation.m; sourceTree = "<group>"; };
 		F14FD3F514C416DA0048BF61 /* ReyPullView_multiMoveBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyPullView_multiMoveBtn.h; sourceTree = "<group>"; };
@@ -626,6 +644,24 @@
 		F1670DA31592B9A8001DC6A5 /* I_ReyAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = I_ReyAnnotationView.h; sourceTree = "<group>"; };
 		F1670DA41592B9A8001DC6A5 /* ReyAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyAnnotationView.h; sourceTree = "<group>"; };
 		F1670DA51592B9A8001DC6A5 /* ReyAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyAnnotationView.m; sourceTree = "<group>"; };
+		F167B21F1B217889004FB006 /* FMDatabase+FTS3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDatabase+FTS3.h"; sourceTree = "<group>"; };
+		F167B2201B217889004FB006 /* FMDatabase+FTS3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDatabase+FTS3.m"; sourceTree = "<group>"; };
+		F167B2211B217889004FB006 /* FMTokenizers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTokenizers.h; sourceTree = "<group>"; };
+		F167B2221B217889004FB006 /* FMTokenizers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTokenizers.m; sourceTree = "<group>"; };
+		F167B2231B217889004FB006 /* fts3_tokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fts3_tokenizer.h; sourceTree = "<group>"; };
+		F167B2251B217889004FB006 /* FMDatabase+InMemoryOnDiskIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDatabase+InMemoryOnDiskIO.h"; sourceTree = "<group>"; };
+		F167B2261B217889004FB006 /* FMDatabase+InMemoryOnDiskIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDatabase+InMemoryOnDiskIO.m"; sourceTree = "<group>"; };
+		F167B22B1B217889004FB006 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		F167B22C1B217889004FB006 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		F167B22D1B217889004FB006 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		F167B22E1B217889004FB006 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		F167B22F1B217889004FB006 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		F167B2301B217889004FB006 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		F167B2311B217889004FB006 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		F167B2321B217889004FB006 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		F167B2331B217889004FB006 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		F167B2341B217889004FB006 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		F167B2351B217889004FB006 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		F16DB58614C185560059C279 /* ReyCustomAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyCustomAlert.h; sourceTree = "<group>"; };
 		F16DB58714C185560059C279 /* ReyCustomAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyCustomAlert.m; sourceTree = "<group>"; };
 		F17D871616704504007B7F4F /* IPAdress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPAdress.h; sourceTree = "<group>"; };
@@ -923,16 +959,8 @@
 		F1369DDC17F2874200EC1C1F /* FMDB */ = {
 			isa = PBXGroup;
 			children = (
-				F1369DDD17F2874200EC1C1F /* FMDatabase.h */,
-				F1369DDE17F2874200EC1C1F /* FMDatabase.m */,
-				F1369DDF17F2874200EC1C1F /* FMDatabaseAdditions.h */,
-				F1369DE017F2874200EC1C1F /* FMDatabaseAdditions.m */,
-				F1369DE117F2874200EC1C1F /* FMDatabasePool.h */,
-				F1369DE217F2874200EC1C1F /* FMDatabasePool.m */,
-				F1369DE317F2874200EC1C1F /* FMDatabaseQueue.h */,
-				F1369DE417F2874200EC1C1F /* FMDatabaseQueue.m */,
-				F1369DE517F2874200EC1C1F /* FMResultSet.h */,
-				F1369DE617F2874200EC1C1F /* FMResultSet.m */,
+				F167B21D1B217889004FB006 /* extra */,
+				F167B22A1B217889004FB006 /* fmdb */,
 			);
 			path = FMDB;
 			sourceTree = "<group>";
@@ -1024,6 +1052,15 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		F14882A317FAB64200A1BC58 /* GCDURL */ = {
+			isa = PBXGroup;
+			children = (
+				F14882A517FABF5F00A1BC58 /* ReyUrlDowanload.h */,
+				F14882A617FABF5F00A1BC58 /* ReyUrlDowanload.m */,
+			);
+			name = GCDURL;
+			sourceTree = "<group>";
+		};
 		F14C206714DBA337009240C5 /* Rotation Button */ = {
 			isa = PBXGroup;
 			children = (
@@ -1100,6 +1137,7 @@
 		F15B769A1495CF13004425EE /* URL */ = {
 			isa = PBXGroup;
 			children = (
+				F14882A317FAB64200A1BC58 /* GCDURL */,
 				F12D6420151C47E9007DFA5C /* DownloadQueue */,
 				F15B76961495CD93004425EE /* ReyDownload.h */,
 				F15B76971495CD93004425EE /* ReyDownload.m */,
@@ -1258,6 +1296,54 @@
 				F1670DA51592B9A8001DC6A5 /* ReyAnnotationView.m */,
 			);
 			name = ReyAnnotationView;
+			sourceTree = "<group>";
+		};
+		F167B21D1B217889004FB006 /* extra */ = {
+			isa = PBXGroup;
+			children = (
+				F167B21E1B217889004FB006 /* fts3 */,
+				F167B2241B217889004FB006 /* InMemoryOnDiskIO */,
+			);
+			path = extra;
+			sourceTree = "<group>";
+		};
+		F167B21E1B217889004FB006 /* fts3 */ = {
+			isa = PBXGroup;
+			children = (
+				F167B21F1B217889004FB006 /* FMDatabase+FTS3.h */,
+				F167B2201B217889004FB006 /* FMDatabase+FTS3.m */,
+				F167B2211B217889004FB006 /* FMTokenizers.h */,
+				F167B2221B217889004FB006 /* FMTokenizers.m */,
+				F167B2231B217889004FB006 /* fts3_tokenizer.h */,
+			);
+			path = fts3;
+			sourceTree = "<group>";
+		};
+		F167B2241B217889004FB006 /* InMemoryOnDiskIO */ = {
+			isa = PBXGroup;
+			children = (
+				F167B2251B217889004FB006 /* FMDatabase+InMemoryOnDiskIO.h */,
+				F167B2261B217889004FB006 /* FMDatabase+InMemoryOnDiskIO.m */,
+			);
+			path = InMemoryOnDiskIO;
+			sourceTree = "<group>";
+		};
+		F167B22A1B217889004FB006 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				F167B22B1B217889004FB006 /* FMDatabase.h */,
+				F167B22C1B217889004FB006 /* FMDatabase.m */,
+				F167B22D1B217889004FB006 /* FMDatabaseAdditions.h */,
+				F167B22E1B217889004FB006 /* FMDatabaseAdditions.m */,
+				F167B22F1B217889004FB006 /* FMDatabasePool.h */,
+				F167B2301B217889004FB006 /* FMDatabasePool.m */,
+				F167B2311B217889004FB006 /* FMDatabaseQueue.h */,
+				F167B2321B217889004FB006 /* FMDatabaseQueue.m */,
+				F167B2331B217889004FB006 /* FMDB.h */,
+				F167B2341B217889004FB006 /* FMResultSet.h */,
+				F167B2351B217889004FB006 /* FMResultSet.m */,
+			);
+			path = fmdb;
 			sourceTree = "<group>";
 		};
 		F16DB58114C1847F0059C279 /* ReyLoadView */ = {
@@ -1677,6 +1763,8 @@
 		F1FC121214DE731B003A1032 /* ReyCommon */ = {
 			isa = PBXGroup;
 			children = (
+				F1441BDE17F5467900C5599F /* UIDeviceHardware.h */,
+				F1441BDF17F5467A00C5599F /* UIDeviceHardware.m */,
 				F1FC121414DE733B003A1032 /* ReyCommon.h */,
 				F1FC121514DE733B003A1032 /* ReyCommon.m */,
 			);
@@ -1691,9 +1779,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F165F131147DF51100EA1F00 /* ReyLabel_shadow.h in Headers */,
+				F167B25A1B217889004FB006 /* FMResultSet.h in Headers */,
 				F165F133147DF51100EA1F00 /* ReyLabel_shadowExtra.h in Headers */,
 				F15B76981495CD93004425EE /* ReyDownload.h in Headers */,
-				F1369DE717F2874200EC1C1F /* FMDatabase.h in Headers */,
 				F1D32C4514960E0300C0D512 /* ReyDownload_Post.h in Headers */,
 				F1D32C6E1496346E00C0D512 /* ReyXMLParser.h in Headers */,
 				F1D32C751496380300C0D512 /* ReyXMLParser_GODLogin.h in Headers */,
@@ -1701,13 +1789,15 @@
 				F1300F7A14979B87001AA8E3 /* ReyLoading.h in Headers */,
 				F1F5D0561498334700D55A6C /* ReyXMLParser_autoUpdate.h in Headers */,
 				F159E8201498A8DA00F8C5B3 /* ReyXMLParser_keys.h in Headers */,
+				F167B2501B217889004FB006 /* FMDatabasePool.h in Headers */,
 				F14701FB17EC353600D54977 /* TFHpple.h in Headers */,
 				F1899548149C65D7002C5A0A /* ReyXMLParser_GetGid.h in Headers */,
 				F123A5CD14A424E50004D927 /* IrregularShapedButton.h in Headers */,
 				F123A5CF14A424E50004D927 /* UIImage-Alpha.h in Headers */,
-				F1369DF717F2874200EC1C1F /* FMResultSet.h in Headers */,
+				F167B24C1B217889004FB006 /* FMDatabaseAdditions.h in Headers */,
 				F1DDB91B14A4B05D00529BD6 /* ReyCoreMotion.h in Headers */,
 				F1B87D1414B555AD0072F6A9 /* ReyRockerEvent.h in Headers */,
+				F167B2541B217889004FB006 /* FMDatabaseQueue.h in Headers */,
 				F18B774B14BEDC02006390F9 /* ReyPopupView_circle.h in Headers */,
 				F18B774D14BEDC02006390F9 /* ReyPopupView_circleItem.h in Headers */,
 				F16DB58814C185560059C279 /* ReyCustomAlert.h in Headers */,
@@ -1739,6 +1829,7 @@
 				F18B3B2A14F258030041865F /* Video.h in Headers */,
 				F18B3B2B14F258030041865F /* Window.h in Headers */,
 				F18B3B2C14F258030041865F /* zbar.h in Headers */,
+				F167B2481B217889004FB006 /* FMDatabase.h in Headers */,
 				F18B3B2D14F258030041865F /* ZBarCameraSimulator.h in Headers */,
 				F18B3B2E14F258030041865F /* ZBarCaptureReader.h in Headers */,
 				F18B3B2F14F258030041865F /* ZBarHelpController.h in Headers */,
@@ -1762,6 +1853,8 @@
 				F1E08A191523337E009A7C66 /* ReyCache.h in Headers */,
 				F1E9D07F152459E200734D69 /* ReyProcess.h in Headers */,
 				F1C1B2951535549E00B2A94B /* ReyAlert_outGame.h in Headers */,
+				F167B2401B217889004FB006 /* FMDatabase+InMemoryOnDiskIO.h in Headers */,
+				F167B2581B217889004FB006 /* FMDB.h in Headers */,
 				F1C1B2991535549E00B2A94B /* ReyOutGameAlert.h in Headers */,
 				F1A3709F155B7A6A0028B49F /* ReyTextField.h in Headers */,
 				F1E4F4481589AB4A00B181F5 /* ReyWebView.h in Headers */,
@@ -1775,23 +1868,25 @@
 				F1C1F2E91590616E00FFAE6D /* SBJsonParser.h in Headers */,
 				F1C1F2ED1590616E00FFAE6D /* SBJsonWriter.h in Headers */,
 				F1670D9A1592B991001DC6A5 /* ReyLocation.h in Headers */,
-				F1369DF317F2874200EC1C1F /* FMDatabaseQueue.h in Headers */,
+				F1441BE017F5467A00C5599F /* UIDeviceHardware.h in Headers */,
 				F1670D9E1592B991001DC6A5 /* ReyMapView.h in Headers */,
 				F1670DA61592B9A8001DC6A5 /* I_ReyAnnotationView.h in Headers */,
-				F1369DEB17F2874200EC1C1F /* FMDatabaseAdditions.h in Headers */,
 				F1670DA81592B9A8001DC6A5 /* ReyAnnotationView.h in Headers */,
 				F1A2929515C955A0000D0E88 /* ReyCodeXML.h in Headers */,
 				F10F474B15CA7D91000C0B89 /* ReyDownload_soap.h in Headers */,
 				F138909015CFB7510066A5F9 /* ReyLabel_rocker.h in Headers */,
 				F1109A4915D0BB6700DA03E7 /* ReyMD5.h in Headers */,
+				F14882A717FABF5F00A1BC58 /* ReyUrlDowanload.h in Headers */,
 				F154900B15D10D5F00400EAD /* MD5.h in Headers */,
 				F1E49C4A15DA6572005AD0BA /* SFHFKeychainUtils.h in Headers */,
 				F160099315DFA42F00C193D9 /* ReyBar.h in Headers */,
 				F190C5EF15EF8CAF0066DF6E /* ReyShareEngine.h in Headers */,
 				F190C5FB15EF8CC30066DF6E /* ReyShareEngine_sina.h in Headers */,
+				F167B2361B217889004FB006 /* FMDatabase+FTS3.h in Headers */,
 				F190C5FF15EF8CC30066DF6E /* ReyShareEngine_QQ.h in Headers */,
 				F190C60315EF8CC30066DF6E /* ReyShareEngine_renren.h in Headers */,
 				F190C60715EF8CC30066DF6E /* ReyShareEngine_douban.h in Headers */,
+				F167B23A1B217889004FB006 /* FMTokenizers.h in Headers */,
 				F190C60E15EF8CF80066DF6E /* ReyShareRequest.h in Headers */,
 				F190C61515EF8D180066DF6E /* ReyShareView.h in Headers */,
 				F190C61E15EF8D2C0066DF6E /* ReyShareKeys.h in Headers */,
@@ -1802,9 +1897,9 @@
 				F155172715F99420007E6456 /* GTMDefines.h in Headers */,
 				F1A9471715FE21960029A714 /* ReyImageView_down.h in Headers */,
 				F147020517EC354300D54977 /* XPathQuery.h in Headers */,
-				F1369DEF17F2874200EC1C1F /* FMDatabasePool.h in Headers */,
 				F1A9472015FE3BEE0029A714 /* ReyLoadView.h in Headers */,
 				F1C377B91604BE3B00C50AA6 /* AFUIImageReflection.h in Headers */,
+				F167B23E1B217889004FB006 /* fts3_tokenizer.h in Headers */,
 				F12337AF16528CB20019B122 /* ReyScrollView.h in Headers */,
 				F12337C4165344270019B122 /* ReyScrollView_detailView.h in Headers */,
 				F1F8E1651658ECE6004241B9 /* ReyBreakLoadView.h in Headers */,
@@ -1827,9 +1922,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F18B3BA714F25CC50041865F /* ReyLabel_shadow.h in Headers */,
+				F167B25B1B217889004FB006 /* FMResultSet.h in Headers */,
 				F18B3BA814F25CC50041865F /* ReyLabel_shadowExtra.h in Headers */,
 				F18B3BA914F25CC50041865F /* ReyDownload.h in Headers */,
-				F1369DE817F2874200EC1C1F /* FMDatabase.h in Headers */,
 				F18B3BAA14F25CC50041865F /* ReyDownload_Post.h in Headers */,
 				F18B3BAB14F25CC50041865F /* ReyXMLParser.h in Headers */,
 				F18B3BAC14F25CC50041865F /* ReyXMLParser_GODLogin.h in Headers */,
@@ -1837,13 +1932,15 @@
 				F18B3BAE14F25CC50041865F /* ReyLoading.h in Headers */,
 				F18B3BAF14F25CC50041865F /* ReyXMLParser_autoUpdate.h in Headers */,
 				F18B3BB014F25CC50041865F /* ReyXMLParser_keys.h in Headers */,
+				F167B2511B217889004FB006 /* FMDatabasePool.h in Headers */,
 				F14701FC17EC353600D54977 /* TFHpple.h in Headers */,
 				F18B3BB114F25CC50041865F /* ReyXMLParser_GetGid.h in Headers */,
 				F18B3BB214F25CC50041865F /* IrregularShapedButton.h in Headers */,
 				F18B3BB314F25CC50041865F /* UIImage-Alpha.h in Headers */,
-				F1369DF817F2874200EC1C1F /* FMResultSet.h in Headers */,
+				F167B24D1B217889004FB006 /* FMDatabaseAdditions.h in Headers */,
 				F18B3BB414F25CC50041865F /* ReyCoreMotion.h in Headers */,
 				F18B3BB514F25CC50041865F /* ReyRockerEvent.h in Headers */,
+				F167B2551B217889004FB006 /* FMDatabaseQueue.h in Headers */,
 				F18B3BB614F25CC50041865F /* ReyPopupView_circle.h in Headers */,
 				F18B3BB714F25CC50041865F /* ReyPopupView_circleItem.h in Headers */,
 				F18B3BB814F25CC50041865F /* ReyCustomAlert.h in Headers */,
@@ -1875,6 +1972,7 @@
 				F18B3BD114F25CC50041865F /* Video.h in Headers */,
 				F18B3BD214F25CC50041865F /* Window.h in Headers */,
 				F18B3BD314F25CC50041865F /* zbar.h in Headers */,
+				F167B2491B217889004FB006 /* FMDatabase.h in Headers */,
 				F18B3BD414F25CC50041865F /* ZBarCameraSimulator.h in Headers */,
 				F18B3BD514F25CC50041865F /* ZBarCaptureReader.h in Headers */,
 				F18B3BD614F25CC50041865F /* ZBarHelpController.h in Headers */,
@@ -1898,6 +1996,8 @@
 				F1E08A1A1523337E009A7C66 /* ReyCache.h in Headers */,
 				F1E9D080152459E200734D69 /* ReyProcess.h in Headers */,
 				F1C1B2961535549E00B2A94B /* ReyAlert_outGame.h in Headers */,
+				F167B2411B217889004FB006 /* FMDatabase+InMemoryOnDiskIO.h in Headers */,
+				F167B2591B217889004FB006 /* FMDB.h in Headers */,
 				F1C1B29A1535549E00B2A94B /* ReyOutGameAlert.h in Headers */,
 				F1A370A0155B7A6A0028B49F /* ReyTextField.h in Headers */,
 				F1E4F4491589AB4A00B181F5 /* ReyWebView.h in Headers */,
@@ -1911,23 +2011,25 @@
 				F1C1F2EA1590616E00FFAE6D /* SBJsonParser.h in Headers */,
 				F1C1F2EE1590616E00FFAE6D /* SBJsonWriter.h in Headers */,
 				F1670D9B1592B991001DC6A5 /* ReyLocation.h in Headers */,
-				F1369DF417F2874200EC1C1F /* FMDatabaseQueue.h in Headers */,
+				F1441BE117F5467A00C5599F /* UIDeviceHardware.h in Headers */,
 				F1670D9F1592B991001DC6A5 /* ReyMapView.h in Headers */,
 				F1670DA71592B9A8001DC6A5 /* I_ReyAnnotationView.h in Headers */,
-				F1369DEC17F2874200EC1C1F /* FMDatabaseAdditions.h in Headers */,
 				F1670DA91592B9A8001DC6A5 /* ReyAnnotationView.h in Headers */,
 				F1A2929615C955A0000D0E88 /* ReyCodeXML.h in Headers */,
 				F10F474C15CA7D91000C0B89 /* ReyDownload_soap.h in Headers */,
 				F138909115CFB7510066A5F9 /* ReyLabel_rocker.h in Headers */,
 				F1109A4A15D0BB6700DA03E7 /* ReyMD5.h in Headers */,
+				F14882A817FABF5F00A1BC58 /* ReyUrlDowanload.h in Headers */,
 				F154900C15D10D5F00400EAD /* MD5.h in Headers */,
 				F1E49C4B15DA6572005AD0BA /* SFHFKeychainUtils.h in Headers */,
 				F160099415DFA42F00C193D9 /* ReyBar.h in Headers */,
 				F190C5F015EF8CAF0066DF6E /* ReyShareEngine.h in Headers */,
 				F190C5FC15EF8CC30066DF6E /* ReyShareEngine_sina.h in Headers */,
+				F167B2371B217889004FB006 /* FMDatabase+FTS3.h in Headers */,
 				F190C60015EF8CC30066DF6E /* ReyShareEngine_QQ.h in Headers */,
 				F190C60415EF8CC30066DF6E /* ReyShareEngine_renren.h in Headers */,
 				F190C60815EF8CC30066DF6E /* ReyShareEngine_douban.h in Headers */,
+				F167B23B1B217889004FB006 /* FMTokenizers.h in Headers */,
 				F190C60F15EF8CF80066DF6E /* ReyShareRequest.h in Headers */,
 				F190C61615EF8D180066DF6E /* ReyShareView.h in Headers */,
 				F190C61F15EF8D2C0066DF6E /* ReyShareKeys.h in Headers */,
@@ -1938,9 +2040,9 @@
 				F155172815F99420007E6456 /* GTMDefines.h in Headers */,
 				F1A9471815FE21960029A714 /* ReyImageView_down.h in Headers */,
 				F147020617EC354300D54977 /* XPathQuery.h in Headers */,
-				F1369DF017F2874200EC1C1F /* FMDatabasePool.h in Headers */,
 				F1A9472115FE3BEE0029A714 /* ReyLoadView.h in Headers */,
 				F1C377BA1604BE3B00C50AA6 /* AFUIImageReflection.h in Headers */,
+				F167B23F1B217889004FB006 /* fts3_tokenizer.h in Headers */,
 				F12337B016528CB20019B122 /* ReyScrollView.h in Headers */,
 				F12337C5165344270019B122 /* ReyScrollView_detailView.h in Headers */,
 				F1F8E1661658ECE6004241B9 /* ReyBreakLoadView.h in Headers */,
@@ -2001,7 +2103,7 @@
 		F165F116147DF4E100EA1F00 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0630;
 			};
 			buildConfigurationList = F165F119147DF4E100EA1F00 /* Build configuration list for PBXProject "ReyCore" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -2046,6 +2148,7 @@
 				F165F132147DF51100EA1F00 /* ReyLabel_shadow.m in Sources */,
 				F165F134147DF51100EA1F00 /* ReyLabel_shadowExtra.m in Sources */,
 				F15B76991495CD93004425EE /* ReyDownload.m in Sources */,
+				F167B24A1B217889004FB006 /* FMDatabase.m in Sources */,
 				F1D32C4614960E0300C0D512 /* ReyDownload_Post.m in Sources */,
 				F1D32C6F1496346E00C0D512 /* ReyXMLParser.m in Sources */,
 				F1D32C761496380300C0D512 /* ReyXMLParser_GODLogin.m in Sources */,
@@ -2062,6 +2165,7 @@
 				F18B774E14BEDC02006390F9 /* ReyPopupView_circleItem.m in Sources */,
 				F16DB58914C185560059C279 /* ReyCustomAlert.m in Sources */,
 				F1E98AA014C31C2E00EFF833 /* ReyPullView.m in Sources */,
+				F167B2381B217889004FB006 /* FMDatabase+FTS3.m in Sources */,
 				F1E98AA214C31C2E00EFF833 /* ReyPullView_moveBtn.m in Sources */,
 				F1E98AA714C31C5300EFF833 /* ReyAnimation.m in Sources */,
 				F144D2F514C3F461000B69EA /* ReyRotationView.m in Sources */,
@@ -2073,15 +2177,14 @@
 				F15C128C14D7EA3400677ED5 /* ReyPullView_customMoveBtn.m in Sources */,
 				F14C206B14DBA35E009240C5 /* ReyButton_rotation.m in Sources */,
 				F1D691D414DD33D7007B9C78 /* ReyInterchangeView.m in Sources */,
-				F1369DF917F2874200EC1C1F /* FMResultSet.m in Sources */,
 				F1D691D614DD33D7007B9C78 /* ReyInterchangeView_moveItem.m in Sources */,
 				F1FC121714DE733B003A1032 /* ReyCommon.m in Sources */,
 				F147020717EC354300D54977 /* XPathQuery.m in Sources */,
 				F10192D614DFA1CD001716F2 /* ReySlipView.m in Sources */,
+				F1441BE217F5467A00C5599F /* UIDeviceHardware.m in Sources */,
 				F1506D8614E0EDC00071FB73 /* ReySteeringWheel.m in Sources */,
 				F1220E8614EB4EC70094EE75 /* ReyImageView.m in Sources */,
 				F18B3BE714F260620041865F /* ReyZBar.m in Sources */,
-				F1369DF117F2874200EC1C1F /* FMDatabasePool.m in Sources */,
 				F13A69CF15198162009E2DDF /* Reachability.m in Sources */,
 				F13A69DC15198277009E2DDF /* ReyNetWorkStatus.m in Sources */,
 				F12D309715206B120022A198 /* ReyDownload_cache.m in Sources */,
@@ -2090,8 +2193,11 @@
 				F1F31B391522A6370048A37A /* ReyDownloadQueue_cache.m in Sources */,
 				F1E08A13152332E3009A7C66 /* ReyXMLParser_imgurl.m in Sources */,
 				F14701FD17EC353600D54977 /* TFHpple.m in Sources */,
+				F167B23C1B217889004FB006 /* FMTokenizers.m in Sources */,
+				F14882A917FABF5F00A1BC58 /* ReyUrlDowanload.m in Sources */,
 				F1E08A1B1523337E009A7C66 /* ReyCache.m in Sources */,
 				F147021117EC35A500D54977 /* ReyHpple.m in Sources */,
+				F167B2561B217889004FB006 /* FMDatabaseQueue.m in Sources */,
 				F1E9D081152459E200734D69 /* ReyProcess.m in Sources */,
 				F1C1B2971535549E00B2A94B /* ReyAlert_outGame.m in Sources */,
 				F1C1B29B1535549E00B2A94B /* ReyOutGameAlert.m in Sources */,
@@ -2104,17 +2210,19 @@
 				F1C1F2E31590616E00FFAE6D /* SBJSON.m in Sources */,
 				F1C1F2E71590616E00FFAE6D /* SBJsonBase.m in Sources */,
 				F1C1F2EB1590616E00FFAE6D /* SBJsonParser.m in Sources */,
-				F1369DE917F2874200EC1C1F /* FMDatabase.m in Sources */,
 				F1C1F2EF1590616E00FFAE6D /* SBJsonWriter.m in Sources */,
 				F1670D9C1592B991001DC6A5 /* ReyLocation.m in Sources */,
 				F1670DA01592B991001DC6A5 /* ReyMapView.m in Sources */,
 				F1670DAA1592B9A8001DC6A5 /* ReyAnnotationView.m in Sources */,
 				F1A2929715C955A0000D0E88 /* ReyCodeXML.m in Sources */,
 				F10F474D15CA7D91000C0B89 /* ReyDownload_soap.m in Sources */,
+				F167B2521B217889004FB006 /* FMDatabasePool.m in Sources */,
 				F138909215CFB7510066A5F9 /* ReyLabel_rocker.m in Sources */,
 				F1109A4B15D0BB6700DA03E7 /* ReyMD5.mm in Sources */,
+				F167B2421B217889004FB006 /* FMDatabase+InMemoryOnDiskIO.m in Sources */,
 				F154900915D10D5F00400EAD /* MD5.cpp in Sources */,
 				F1E49C4C15DA6572005AD0BA /* SFHFKeychainUtils.m in Sources */,
+				F167B25C1B217889004FB006 /* FMResultSet.m in Sources */,
 				F112F55A17F17D1200B12594 /* ReyDataBase.m in Sources */,
 				F160099515DFA42F00C193D9 /* ReyBar.m in Sources */,
 				F190C5F115EF8CAF0066DF6E /* ReyShareEngine.m in Sources */,
@@ -2134,14 +2242,13 @@
 				F12337B116528CB20019B122 /* ReyScrollView.m in Sources */,
 				F12337C6165344270019B122 /* ReyScrollView_detailView.m in Sources */,
 				F1F8E1671658ECE6004241B9 /* ReyBreakLoadView.m in Sources */,
-				F1369DF517F2874200EC1C1F /* FMDatabaseQueue.m in Sources */,
 				F1F8E16B1658ECE6004241B9 /* Rey_BLV_item.m in Sources */,
 				F154B91A165DF949005FD947 /* ReyFilter.m in Sources */,
 				F154B921165DFE22005FD947 /* ReyFilter_smooth.m in Sources */,
 				F154B92D165E036E005FD947 /* ReyARBG.m in Sources */,
 				F154B937165F0AF3005FD947 /* ReyFilter_rainbow.m in Sources */,
+				F167B24E1B217889004FB006 /* FMDatabaseAdditions.m in Sources */,
 				F154B941165F413D005FD947 /* ReyFilter_sharpen.m in Sources */,
-				F1369DED17F2874200EC1C1F /* FMDatabaseAdditions.m in Sources */,
 				F17D871D16704514007B7F4F /* ReyIPAddress.m in Sources */,
 				F116408A16CF6B3800485FAD /* ReyDownloadManager.m in Sources */,
 				F116409016CF6B3800485FAD /* ReyDownloadItem.m in Sources */,
@@ -2155,6 +2262,7 @@
 				F18B3B7D14F25CC50041865F /* ReyLabel_shadow.m in Sources */,
 				F18B3B7E14F25CC50041865F /* ReyLabel_shadowExtra.m in Sources */,
 				F18B3B7F14F25CC50041865F /* ReyDownload.m in Sources */,
+				F167B24B1B217889004FB006 /* FMDatabase.m in Sources */,
 				F18B3B8014F25CC50041865F /* ReyDownload_Post.m in Sources */,
 				F18B3B8114F25CC50041865F /* ReyXMLParser.m in Sources */,
 				F18B3B8214F25CC50041865F /* ReyXMLParser_GODLogin.m in Sources */,
@@ -2171,6 +2279,7 @@
 				F18B3B8D14F25CC50041865F /* ReyPopupView_circleItem.m in Sources */,
 				F18B3B8E14F25CC50041865F /* ReyCustomAlert.m in Sources */,
 				F18B3B8F14F25CC50041865F /* ReyPullView.m in Sources */,
+				F167B2391B217889004FB006 /* FMDatabase+FTS3.m in Sources */,
 				F18B3B9014F25CC50041865F /* ReyPullView_moveBtn.m in Sources */,
 				F18B3B9114F25CC50041865F /* ReyAnimation.m in Sources */,
 				F18B3B9214F25CC50041865F /* ReyRotationView.m in Sources */,
@@ -2182,15 +2291,14 @@
 				F18B3B9814F25CC50041865F /* ReyPullView_customMoveBtn.m in Sources */,
 				F18B3B9914F25CC50041865F /* ReyButton_rotation.m in Sources */,
 				F18B3B9A14F25CC50041865F /* ReyInterchangeView.m in Sources */,
-				F1369DFA17F2874200EC1C1F /* FMResultSet.m in Sources */,
 				F18B3B9B14F25CC50041865F /* ReyInterchangeView_moveItem.m in Sources */,
 				F18B3B9C14F25CC50041865F /* ReyCommon.m in Sources */,
 				F147020817EC354300D54977 /* XPathQuery.m in Sources */,
 				F18B3B9D14F25CC50041865F /* ReySlipView.m in Sources */,
+				F1441BE317F5467A00C5599F /* UIDeviceHardware.m in Sources */,
 				F18B3B9E14F25CC50041865F /* ReySteeringWheel.m in Sources */,
 				F18B3B9F14F25CC50041865F /* ReyImageView.m in Sources */,
 				F18B3BE814F260620041865F /* ReyZBar.m in Sources */,
-				F1369DF217F2874200EC1C1F /* FMDatabasePool.m in Sources */,
 				F13A69D015198162009E2DDF /* Reachability.m in Sources */,
 				F13A69DD15198277009E2DDF /* ReyNetWorkStatus.m in Sources */,
 				F12D309815206B120022A198 /* ReyDownload_cache.m in Sources */,
@@ -2199,8 +2307,11 @@
 				F1F31B3A1522A6370048A37A /* ReyDownloadQueue_cache.m in Sources */,
 				F1E08A14152332E3009A7C66 /* ReyXMLParser_imgurl.m in Sources */,
 				F14701FE17EC353600D54977 /* TFHpple.m in Sources */,
+				F167B23D1B217889004FB006 /* FMTokenizers.m in Sources */,
+				F14882AA17FABF5F00A1BC58 /* ReyUrlDowanload.m in Sources */,
 				F1E08A1C1523337E009A7C66 /* ReyCache.m in Sources */,
 				F147021217EC35A500D54977 /* ReyHpple.m in Sources */,
+				F167B2571B217889004FB006 /* FMDatabaseQueue.m in Sources */,
 				F1E9D082152459E200734D69 /* ReyProcess.m in Sources */,
 				F1C1B2981535549E00B2A94B /* ReyAlert_outGame.m in Sources */,
 				F1C1B29C1535549E00B2A94B /* ReyOutGameAlert.m in Sources */,
@@ -2213,17 +2324,19 @@
 				F1C1F2E41590616E00FFAE6D /* SBJSON.m in Sources */,
 				F1C1F2E81590616E00FFAE6D /* SBJsonBase.m in Sources */,
 				F1C1F2EC1590616E00FFAE6D /* SBJsonParser.m in Sources */,
-				F1369DEA17F2874200EC1C1F /* FMDatabase.m in Sources */,
 				F1C1F2F01590616E00FFAE6D /* SBJsonWriter.m in Sources */,
 				F1670D9D1592B991001DC6A5 /* ReyLocation.m in Sources */,
 				F1670DA11592B991001DC6A5 /* ReyMapView.m in Sources */,
 				F1670DAB1592B9A8001DC6A5 /* ReyAnnotationView.m in Sources */,
 				F1A2929815C955A0000D0E88 /* ReyCodeXML.m in Sources */,
 				F10F474E15CA7D91000C0B89 /* ReyDownload_soap.m in Sources */,
+				F167B2531B217889004FB006 /* FMDatabasePool.m in Sources */,
 				F138909315CFB7510066A5F9 /* ReyLabel_rocker.m in Sources */,
 				F1109A4C15D0BB6700DA03E7 /* ReyMD5.mm in Sources */,
+				F167B2431B217889004FB006 /* FMDatabase+InMemoryOnDiskIO.m in Sources */,
 				F154900A15D10D5F00400EAD /* MD5.cpp in Sources */,
 				F1E49C4D15DA6572005AD0BA /* SFHFKeychainUtils.m in Sources */,
+				F167B25D1B217889004FB006 /* FMResultSet.m in Sources */,
 				F112F55B17F17D1200B12594 /* ReyDataBase.m in Sources */,
 				F160099615DFA42F00C193D9 /* ReyBar.m in Sources */,
 				F190C5F215EF8CAF0066DF6E /* ReyShareEngine.m in Sources */,
@@ -2243,14 +2356,13 @@
 				F12337B216528CB20019B122 /* ReyScrollView.m in Sources */,
 				F12337C7165344270019B122 /* ReyScrollView_detailView.m in Sources */,
 				F1F8E1681658ECE6004241B9 /* ReyBreakLoadView.m in Sources */,
-				F1369DF617F2874200EC1C1F /* FMDatabaseQueue.m in Sources */,
 				F1F8E16C1658ECE6004241B9 /* Rey_BLV_item.m in Sources */,
 				F154B91B165DF949005FD947 /* ReyFilter.m in Sources */,
 				F154B922165DFE22005FD947 /* ReyFilter_smooth.m in Sources */,
 				F154B92E165E036E005FD947 /* ReyARBG.m in Sources */,
 				F154B938165F0AF3005FD947 /* ReyFilter_rainbow.m in Sources */,
+				F167B24F1B217889004FB006 /* FMDatabaseAdditions.m in Sources */,
 				F154B942165F413D005FD947 /* ReyFilter_sharpen.m in Sources */,
-				F1369DEE17F2874200EC1C1F /* FMDatabaseAdditions.m in Sources */,
 				F17D871E16704514007B7F4F /* ReyIPAddress.m in Sources */,
 				F116408B16CF6B3800485FAD /* ReyDownloadManager.m in Sources */,
 				F116409116CF6B3800485FAD /* ReyDownloadItem.m in Sources */,
@@ -2276,25 +2388,36 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					armv7,
-					armv6,
-				);
 				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -2303,18 +2426,28 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					armv7,
-					armv6,
-				);
 				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -2323,16 +2456,16 @@
 		F165F12A147DF4E100EA1F00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/ReyCore.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReyCore/ReyCore-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Volumes/E/xcode版本/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
 					/usr/include/libxml2,
 				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/ReyCore/ZBarSDK\"",
@@ -2347,16 +2480,16 @@
 		F165F12B147DF4E100EA1F00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/ReyCore.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReyCore/ReyCore-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Volumes/E/xcode版本/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
 					/usr/include/libxml2,
 				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/ReyCore/ZBarSDK\"",
@@ -2371,16 +2504,15 @@
 		F18B3BDF14F25CC50041865F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/ReyCore.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReyCore/ReyCore-Prefix.pch";
 				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Volumes/E/xcode版本/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
 					/usr/include/libxml2,
 				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/ReyCore/ZBarSDK\"",
@@ -2395,16 +2527,15 @@
 		F18B3BE014F25CC50041865F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/ReyCore.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReyCore/ReyCore-Prefix.pch";
 				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Volumes/E/xcode版本/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
 					/usr/include/libxml2,
 				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/ReyCore/ZBarSDK\"",

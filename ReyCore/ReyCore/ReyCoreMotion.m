@@ -111,13 +111,10 @@
             case UserAccelerMode:
                 [self updateUserAccelerMode];
                 break;
-                
             default:
                 break;
         }
     }
-       
-
 }
 
 -(void)updateGyroMode
